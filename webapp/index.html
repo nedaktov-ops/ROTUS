@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROTUS - The Rotten Brain of POTUS</title>
+    <style>
+        :root {
+            --primary: #e74c3c;
+            --primary-dark: #c0392b;
+            --bg: #f8f9fa;
+            --card-bg: #fff;
+            --text: #2c3e50;
+            --text-light: #7f8c8d;
+            --border: #ecf0f1;
+            --shadow: 0 2px 8px rgba(0,0,0,0.08);
+            --radius: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        header {
+            background: white;
+            padding: 2rem 1.5rem;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 0.25rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: var(--text-light);
+            font-weight: 400;
+        }
+
+        .tagline {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-light);
+        }
+
+        .controls {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 2.5rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+        }
+
+        select {
+            padding: 0.75rem 1rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            background: white;
+            cursor: pointer;
+            min-width: 150px;
+        }
+
+             select:focus {
+                 outline: none;
+                 border-color: var(--primary);
+             }
+
+         .view-toggle {
+             display: flex;
+             background: var(--bg);
+             border-radius: 8px;
+             overflow: hidden;
+             border: 2px solid var(--border);
+         }
+
+         .view-toggle button {
+             padding: 0.75rem 1rem;
+             border: none;
+             background: transparent;
+             cursor: pointer;
+             font-size: 0.9rem;
+             transition: background 0.2s, color 0.2s;
+         }
+
+         .view-toggle button.active {
+             background: var(--primary);
+             color: white;
+         }
+
+
+         .quotes-grid.timeline-mode {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             max-width: 800px;
+             margin: 0 auto;
+         }
+
+         .quotes-grid.timeline-mode .quote-card {
+             width: 100%;
+             max-width: 600px;
+             margin-bottom: 1.5rem;
+             position: relative;
+             padding-left: 2.5rem;
+             border-left: 3px solid var(--primary);
+             border-radius: 0 var(--radius) var(--radius) 0;
+         }
+
+         .quotes-grid.timeline-mode .quote-card::before {
+             content: '';
+             position: absolute;
+             left: -6px;
+             top: 1.5rem;
+             width: 11px;
+             height: 11px;
+             background: var(--primary);
+             border-radius: 50%;
+         }
+
+         .quotes-grid.timeline-mode .timeline-date {
+             position: absolute;
+             left: -2.5rem;
+             top: 1.5rem;
+             transform: translateX(-50%);
+             background: var(--primary);
+             color: white;
+             padding: 0.2rem 0.5rem;
+             border-radius: 4px;
+             font-size: 0.7rem;
+             font-weight: 600;
+             white-space: nowrap;
+         }
+
+         .quotes-grid:not(.timeline-mode) .timeline-date {
+             display: none;
+         }
+
+        .quote-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .quote-card {
+            position: relative;
+        }
+
+        .quote-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+        }
+
+        .favorite-heart {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            fill: none;
+            stroke: #e74c3c;
+            stroke-width: 2;
+            transition: fill 0.2s;
+        }
+
+        .favorite-heart.filled {
+            fill: #e74c3c;
+        }
+
+        .quote-text {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: var(--text);
+            font-style: italic;
+            margin-bottom: 1rem;
+            flex: 1;
+        }
+
+        .quote-meta {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            border-top: 1px solid var(--border);
+            padding-top: 1rem;
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .badge-verified {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-pending {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-category {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 2rem 1rem;
+        }
+
+        .modal-content {
+            background: white;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: var(--radius);
+            padding: 2rem;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            right: 1.5rem;
+            top: 1rem;
+            font-size: 2rem;
+            color: var(--text-light);
+            cursor: pointer;
+            background: none;
+            border: none;
+            line-height: 1;
+        }
+
+        .close-btn:hover {
+            color: var(--text);
+        }
+
+        .modal-quote {
+            font-size: 1.4rem;
+            line-height: 1.8;
+            color: var(--text);
+            font-style: italic;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-left: 4px solid var(--primary);
+            border-radius: 0 var(--radius) var(--radius) 0;
+        }
+
+        .detail-row {
+            display: flex;
+            gap: 1rem;
+            margin: 0.75rem 0;
+            flex-wrap: wrap;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: var(--text);
+            min-width: 100px;
+        }
+
+        .detail-value {
+            color: var(--text-light);
+        }
+
+        .source-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1.5rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .source-link:hover {
+            background: var(--primary-dark);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-light);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 1.8rem; }
+            .controls { flex-direction: column; }
+            .search-box, select { width: 100%; min-width: 100%; }
+            .quotes-grid { grid-template-columns: 1fr; }
+            .modal-content { padding: 1.5rem; }
+            .modal-quote { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+     <header>
+         <div class="header-content">
+             <h1>ROTUS <button id="random-quote-btn" style="margin-left: 1rem; background: none; border: 2px solid var(--primary); color: var(--primary); padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-size: 1rem;">🎲 Random</button></h1>
+             <p class="subtitle">The Rotten Brain of POTUS</p>
+            <p class="tagline">Verified quotes • Full sources • No context lost</p>
+            <div style="margin-top: 0.5rem;">
+                <a href="/graph" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: none; font-size: 0.9rem; font-weight: 500;">🕸️ Knowledge Graph</a>
+            </div>
+        </div>
+     </header>
+
+    <main>
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <span class="stat-number" id="total-quotes">-</span>
+                <span class="stat-label">Total Quotes</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="verified-quotes">-</span>
+                <span class="stat-label">Verified</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="sources-count">-</span>
+                <span class="stat-label">Sources</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search" placeholder="Search quotes...">
+            </div>
+            <select id="platform-filter">
+                <option value="">All Platforms</option>
+                <option value="Speech">Speech</option>
+                <option value="Interview">Interview</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Truth Social">Truth Social</option>
+                <option value="X">X (Twitter)</option>
+            </select>
+            <select id="category-filter">
+                <option value="">All Categories</option>
+                <option value="funny">Funny</option>
+                <option value="outrageous">Outrageous</option>
+                <option value="lie">Lie</option>
+                <option value="ridiculous">Ridiculous</option>
+                <option value="unexpected">Unexpected</option>
+            </select>
+            <select id="sort-select" style="padding: 0.75rem 1rem; border: 2px solid var(--border); border-radius: 8px; font-size: 0.9rem; background: white; cursor: pointer; margin-left: 0.5rem;">
+                <option value="date_desc">Date (Newest)</option>
+                <option value="date_asc">Date (Oldest)</option>
+                <option value="category_asc">Category (A-Z)</option>
+                <option value="category_desc">Category (Z-A)</option>
+                <option value="platform_asc">Platform (A-Z)</option>
+                <option value="platform_desc">Platform (Z-A)</option>
+             </select>
+             <div class="view-toggle" style="margin-left: 1rem;">
+                 <button id="view-grid-btn" class="active" data-view="grid">Grid</button>
+                 <button id="view-timeline-btn" data-view="timeline">Timeline</button>
+             </div>
+             <label style="display: flex; align-items: center; gap: 0.5rem; margin-left: 1rem; cursor: pointer;">
+                 <input type="checkbox" id="favorites-only">
+                 <span>Favorites only</span>
+             </label>
+         </div>
+
+
+        <div class="quotes-grid" id="quotes-container">
+            <div class="loading">Loading quotes...</div>
+        </div>
+        <div id="pagination" style="text-align: center; margin: 1.5rem 0;"></div>
+    </main>
+
+    <div class="modal" id="quote-modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal()">×</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>ROTUS is a parody/fact-checking project • Built with MemPalace, Graphify & Obsidian</p>
+    </footer>
+
+    <script>
+        const API = window.location.origin;
+        const pageSize = 20;
+        let nextOffset = 0;
+
+        async function loadStats() {
+            try {
+                const res = await fetch(`${API}/api/stats`);
+                const data = await res.json();
+                document.getElementById('total-quotes').textContent = data.total || 0;
+                document.getElementById('verified-quotes').textContent = data.verified || 0;
+                document.getElementById('sources-count').textContent = data.sources || 0;
+            } catch (e) {
+                console.error('Stats error:', e);
+            }
+        }
+
+        function getFavorites() {
+            try {
+                return JSON.parse(localStorage.getItem('rotus_favorites')) || [];
+            } catch (e) {
+                return [];
+            }
+        }
+
+        function toggleFavorite(id) {
+            let favs = getFavorites();
+            if (favs.includes(id)) {
+                favs = favs.filter(x => x !== id);
+            } else {
+                favs.push(id);
+            }
+            localStorage.setItem('rotus_favorites', JSON.stringify(favs));
+            loadQuotes();
+        }
+
+        async function loadQuotes() {
+            // Build query from filters
+            const search = document.getElementById('search').value;
+            const platform = document.getElementById('platform-filter').value;
+            const category = document.getElementById('category-filter').value;
+            const favOnly = document.getElementById('favorites-only').checked;
+
+            const params = new URLSearchParams();
+            if (search) params.append('q', search);
+            if (platform) params.append('platform', platform);
+            if (category) params.append('category', category);
+            // Sorting
+            const sortSelect = document.getElementById('sort-select').value;
+            const parts = sortSelect.split('_');
+            if (parts.length === 2) {
+                params.append('sort', parts[0]);
+                params.append('order', parts[1]);
+            }
+            // Pagination: always fetch first page (offset 0) with limit
+            params.append('limit', pageSize);
+            params.append('offset', 0);
+
+            try {
+                const res = await fetch(`${API}/api/quotes?${params}`);
+                const quotes = await res.json();
+
+                // Apply favorites filter client-side if active
+                const filtered = favOnly ? quotes.filter(q => getFavorites().includes(q.id)) : quotes;
+                displayQuotes(filtered, false);
+
+                // Update pagination state based on raw server response
+                nextOffset = quotes.length;
+                if (quotes.length >= pageSize) {
+                    createLoadMoreButton();
+                    showLoadMore();
+                } else {
+                    hideLoadMore();
+                }
+            } catch (e) {
+                document.getElementById('quotes-container').innerHTML = 
+                    '<div class="loading">Error loading quotes. Is the server running?</div>';
+                hideLoadMore();
+            }
+        }
+            } catch (e) {
+                document.getElementById('quotes-container').innerHTML = 
+                    '<div class="loading">Error loading quotes. Is the server running?</div>';
+            }
+        }
+
+        function displayQuotes(quotes, append = false) {
+            const container = document.getElementById('quotes-container');
+            const favs = getFavorites();
+
+            if (!quotes.length) {
+                if (!append) container.innerHTML = '<div class="loading">No quotes found.</div>';
+                return;
+            }
+
+            const html = quotes.map(q => {
+                const isFav = favs.includes(q.id);
+                const heartFill = isFav ? 'filled' : '';
+                const dateStr = q.date_spoken || 'Unknown';
+                return `
+                <div class="quote-card timeline-item" onclick="showQuote(${q.id})">
+                    <div class="timeline-date">${dateStr}</div>
+                    <svg class="favorite-heart ${heartFill}" data-id="${q.id}" onclick="event.stopPropagation(); toggleFavorite(${q.id})" viewBox="0 0 24 24">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                    </svg>
+                    <div class="quote-text">"${escapeHtml(q.quote_text)}"</div>
+                    <div class="quote-meta">
+                        <span>${dateStr}</span>
+                        <span>${q.platform || 'Unknown'}</span>
+                        <span class="badge ${q.verification_status === 'verified' ? 'badge-verified' : 'badge-pending'}">
+                            ${q.verification_status || 'pending'}
+                        </span>
+                        ${q.category ? `<span class="badge badge-category">${q.category}</span>` : ''}
+                    </div>
+                </div>
+            `).join('');
+
+            if (append) {
+                container.innerHTML += html;
+            } else {
+                container.innerHTML = html;
+            }
+        }
+
+
+        function createLoadMoreButton() {
+            const pagination = document.getElementById('pagination');
+            if (!pagination.querySelector('button')) {
+                const btn = document.createElement('button');
+                btn.id = 'load-more';
+                btn.textContent = 'Load More';
+                btn.style = 'padding: 0.75rem 1.5rem; background: var(--primary); color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;';
+                btn.onclick = loadNextPage;
+                pagination.appendChild(btn);
+                hideLoadMore(); // initially hidden
+            }
+        }
+
+        function showLoadMore() {
+            const btn = document.getElementById('load-more');
+            if (btn) btn.style.display = 'inline-block';
+        }
+
+        function hideLoadMore() {
+            const btn = document.getElementById('load-more');
+            if (btn) btn.style.display = 'none';
+        }
+
+        async function loadNextPage() {
+            const search = document.getElementById('search').value;
+            const platform = document.getElementById('platform-filter').value;
+            const category = document.getElementById('category-filter').value;
+            const favOnly = document.getElementById('favorites-only').checked;
+
+            const params = new URLSearchParams();
+            if (search) params.append('q', search);
+            if (platform) params.append('platform', platform);
+            if (category) params.append('category', category);
+            // Sorting
+            const sortSelect = document.getElementById('sort-select').value;
+            const parts = sortSelect.split('_');
+            if (parts.length === 2) {
+                params.append('sort', parts[0]);
+                params.append('order', parts[1]);
+            }
+            params.append('limit', pageSize);
+            params.append('offset', nextOffset);
+
+            try {
+                const res = await fetch(`${API}/api/quotes?${params}`);
+                const newQuotes = await res.json();
+                const filtered = favOnly ? newQuotes.filter(q => getFavorites().includes(q.id)) : newQuotes;
+                displayQuotes(filtered, true);
+                if (newQuotes.length >= pageSize) {
+                    nextOffset += pageSize;
+                } else {
+                    hideLoadMore();
+                }
+            } catch (e) {
+                console.error('Load more error:', e);
+            }
+        }
+
+        function populateModal(q) {
+            const modalBody = document.getElementById('modal-body');
+            modalBody.innerHTML = `
+                <div class="modal-quote">"${escapeHtml(q.quote_text)}"</div>
+                <div class="detail-row">
+                    <span class="detail-label">Date:</span>
+                    <span class="detail-value">${q.date_spoken || 'Unknown'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Time:</span>
+                    <span class="detail-value">${q.time_spoken || 'Unknown'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Location:</span>
+                    <span class="detail-value">${q.location || 'Unknown'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Platform:</span>
+                    <span class="detail-value">${q.platform || 'Unknown'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Context:</span>
+                    <span class="detail-value">${q.context || 'No context'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Category:</span>
+                    <span class="detail-value">${q.category || 'Uncategorized'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Verification:</span>
+                    <span class="detail-value">
+                        <span class="badge ${q.verification_status === 'verified' ? 'badge-verified' : 'badge-pending'}">
+                            ${q.verification_status || 'pending'}
+                        </span>
+                    </span>
+                </div>
+                ${q.confidence_score ? `
+                <div class="detail-row">
+                    <span class="detail-label">Confidence:</span>
+                    <span class="detail-value">${(q.confidence_score * 100).toFixed(0)}%</span>
+                </div>` : ''}
+                ${q.sources && q.sources.length ? `
+                <div class="detail-row">
+                    <span class="detail-label">Sources:</span>
+                    <div class="detail-value">
+                        ${q.sources.map(s => `<a href="${s.url}" target="_blank" class="source-link" style="margin-right: 0.5rem; margin-bottom: 0.5rem;">${escapeHtml(s.title || s.url)}</a>`).join('')}
+                    </div>
+                </div>` : ''}
+                ${q.source_url && (!q.sources || !q.sources.length) ? `
+                <a href="${q.source_url}" target="_blank" class="source-link">View Source</a>
+                ` : ''}
+            `;
+            document.getElementById('quote-modal').style.display = 'block';
+        }
+
+        async function showQuote(id) {
+            try {
+                const res = await fetch(`${API}/api/quotes/${id}`);
+                const q = await res.json();
+                populateModal(q);
+            } catch (e) {
+                console.error('Quote detail error:', e);
+            }
+        }
+
+        async function showRandomQuote() {
+            try {
+                const res = await fetch(`${API}/api/quotes/random`);
+                const q = await res.json();
+                populateModal(q);
+            } catch (e) {
+                console.error('Random quote error:', e);
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('quote-modal').style.display = 'none';
+        }
+
+        window.onclick = (e) => {
+            if (e.target === document.getElementById('quote-modal')) closeModal();
+        };
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Event listeners
+        document.getElementById('search').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') loadQuotes();
+        });
+
+        document.getElementById('platform-filter').addEventListener('change', loadQuotes);
+        document.getElementById('category-filter').addEventListener('change', loadQuotes);
+        document.getElementById('favorites-only').addEventListener('change', loadQuotes);
+        document.getElementById('sort-select').addEventListener('change', loadQuotes);
+
+        document.getElementById('view-grid-btn').addEventListener('click', () => {
+            const container = document.getElementById('quotes-container');
+            container.classList.remove('timeline-mode');
+            document.getElementById('view-grid-btn').classList.add('active');
+            document.getElementById('view-timeline-btn').classList.remove('active');
+        });
+        document.getElementById('view-timeline-btn').addEventListener('click', () => {
+            const container = document.getElementById('quotes-container');
+            container.classList.add('timeline-mode');
+            document.getElementById('view-timeline-btn').classList.add('active');
+            document.getElementById('view-grid-btn').classList.remove('active');
+        });
+
+        // Load on page load
+        loadStats();
+        loadQuotes();
+    </script>
+</body>
+</html>

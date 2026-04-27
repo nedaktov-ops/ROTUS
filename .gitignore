@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+android/app/build/
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/Podfile.lock
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db-shm
+*.db-wal
+
+# Gradle
+.gradle/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+
+# Misc
+.obsidian/vault/
+temp/
+tmp/
+*.bak
+*.backup
+
+# Nested git repos (submodules)
+graphify-py/.git

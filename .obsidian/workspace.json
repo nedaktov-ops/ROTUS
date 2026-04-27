@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "6429065fa006fdfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "40e69921266f1979",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7e7665f772e6c3a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "34c12b5379617386",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb35443029d6b0b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc871d90ae709525",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "60bedce0c416838e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d45307ef5cb94d2d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cba1cc7fd9223f5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1c8ed778a1ad250",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0f686fe0afc059b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian-vault/People/Donald-Trump.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Donald-Trump"
+            }
+          },
+          {
+            "id": "4cd9274bdf294cc9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian-vault/People/Donald-Trump.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Donald-Trump"
+            }
+          },
+          {
+            "id": "59d88ad92820cd0c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7ad5181de98c65a9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bfe987feb909eca0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian-vault/People/Donald-Trump.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Donald-Trump"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b7e7665f772e6c3a",
+  "lastOpenFiles": [
+    "database/rotus.db-journal",
+    "webapp/collected_quotes.json",
+    "collected_quotes.json",
+    "scripts/__pycache__/politifact_collector.cpython-312.pyc",
+    "scripts/__pycache__/factcheck_collector.cpython-312.pyc",
+    "scripts/__pycache__",
+    "venv/lib/python3.12/site-packages/beautifulsoup4-4.14.3.dist-info/licenses/LICENSE",
+    "venv/lib/python3.12/site-packages/beautifulsoup4-4.14.3.dist-info/licenses/AUTHORS",
+    "venv/lib/python3.12/site-packages/beautifulsoup4-4.14.3.dist-info/licenses",
+    "venv/lib/python3.12/site-packages/beautifulsoup4-4.14.3.dist-info/WHEEL",
+    "venv/lib/python3.12/site-packages/beautifulsoup4-4.14.3.dist-info/REQUESTED",
+    "venv/lib/python3.12/site-packages/soupsieve-2.8.3.dist-info/licenses/LICENSE.md",
+    "obsidian-vault/People/Donald-Trump.md"
+  ]
+}

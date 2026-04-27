@@ -1,0 +1,55 @@
+wing: rotus
+rooms:
+- name: documentation
+  description: Files from docs/
+  keywords:
+  - documentation
+  - docs
+- name: mobile
+  description: Files from mobile/
+  keywords:
+  - mobile
+  - mobile
+- name: scripts
+  description: Files from scripts/
+  keywords:
+  - scripts
+  - scripts
+- name: webapp
+  description: Files from webapp/
+  keywords:
+  - webapp
+  - webapp
+- name: backend
+  description: Files from database/
+  keywords:
+  - backend
+  - database
+- name: scraper
+  description: Files from scraper/
+  keywords:
+  - scraper
+  - scraper
+- name: sources
+  description: Files from sources/
+  keywords:
+  - sources
+  - sources
+- name: obsidian_vault
+  description: Files from obsidian-vault/
+  keywords:
+  - obsidian_vault
+  - obsidian-vault
+- name: quotes
+  description: Files from quotes/
+  keywords:
+  - quotes
+  - quotes
+- name: team
+  description: Files from People/
+  keywords:
+  - team
+  - people
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []

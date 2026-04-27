@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">rotus</string>
+    <string name="title_activity_main">rotus</string>
+    <string name="package_name">com.rotus.app</string>
+    <string name="custom_url_scheme">com.rotus.app</string>
+</resources>

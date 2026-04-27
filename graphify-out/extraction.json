@@ -1,0 +1,3261 @@
+{
+  "nodes": [
+    {
+      "id": "readme",
+      "label": "ROTUS Obsidian Vault - The Rotten Brain of POTUS",
+      "file_type": "document",
+      "source_file": "README.md",
+      "vault_folder": "root"
+    },
+    {
+      "id": "all_quotes",
+      "label": "Trump Quotes - All",
+      "file_type": "document",
+      "source_file": "ALL-QUOTES.md",
+      "vault_folder": "root"
+    },
+    {
+      "id": "dashboards_rotus_dashboard",
+      "label": "ROTUS Dashboard - The Rotten Brain of POTUS",
+      "file_type": "document",
+      "source_file": "Dashboards/ROTUS-Dashboard.md",
+      "vault_folder": "Dashboards",
+      "tags": [
+        "dashboard",
+        "MOC",
+        "ROTUS"
+      ],
+      "creation_date": "2026-04-27"
+    },
+    {
+      "id": "people_donald_trump",
+      "label": "Donald J. Trump",
+      "file_type": "document",
+      "source_file": "People/Donald-Trump.md",
+      "vault_folder": "People",
+      "tags": [
+        "person",
+        "trump",
+        "potus"
+      ],
+      "full_name": "Donald John Trump",
+      "born": "1946-06-14",
+      "birthplace": "Queens, New York, USA",
+      "presidency": "47th President of the United States (2025-present)",
+      "party": "Republican"
+    },
+    {
+      "id": "topics_funny_quotes",
+      "label": "Funny Trump Quotes",
+      "file_type": "document",
+      "source_file": "Topics/Funny-Quotes.md",
+      "vault_folder": "Topics",
+      "tags": [
+        "topic",
+        "funny",
+        "quotes"
+      ],
+      "created": "2026-04-27"
+    },
+    {
+      "id": "topics_outrageous_quotes",
+      "label": "Outrageous Trump Quotes",
+      "file_type": "document",
+      "source_file": "Topics/Outrageous-Quotes.md",
+      "vault_folder": "Topics",
+      "tags": [
+        "topic",
+        "outrageous",
+        "quotes"
+      ],
+      "created": "2026-04-27"
+    },
+    {
+      "id": "quotes_quote_020_unexpected",
+      "label": "\"I have a natural instinct for science.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-020-unexpected.md",
+      "vault_folder": "Quotes",
+      "quote_id": 20,
+      "date": "2017-03-15",
+      "time": "",
+      "location": "Time Magazine",
+      "platform": "Interview",
+      "context": "Discussing climate change and science",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "unexpected",
+      "tags": [
+        "unexpected",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_037_ridiculous",
+      "label": "\"I have a very good brain and I've said a lot of things in my life. I don't remember much.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-037-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 37,
+      "date": "2018-01-06",
+      "time": "",
+      "location": "Twitter (now X)",
+      "platform": "Social Media",
+      "context": "Responding to criticism about memory",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_023_funny",
+      "label": "\"We're going to win so much, you're going to be so sick and tired of winning.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-023-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 23,
+      "date": "2015-06-16",
+      "time": "",
+      "location": "Trump Tower, New York",
+      "platform": "Speech",
+      "context": "Campaign announcement speech",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_019_lie",
+      "label": "\"The Continental Army suffered a bitter winter of Valley Forge, found glory in the Cold War, and emerged victorious in the hot wars and in the Cold War.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-019-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 19,
+      "date": "2019-07-04",
+      "time": "",
+      "location": "Fourth of July celebration",
+      "platform": "Speech",
+      "context": "Discussing American history (historical inaccuracies)",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_050_outrageous",
+      "label": "\"I could stand in the middle of Fifth Avenue and shoot somebody, and I wouldn't lose any voters.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-050-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 50,
+      "date": "2016-01-23",
+      "time": "",
+      "location": "Sioux Center, Iowa",
+      "platform": "Speech",
+      "context": "Campaign rally",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_035_outrageous",
+      "label": "\"I know more about drones than anybody. I know about technology nobody knows.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-035-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 35,
+      "date": "2017-08-17",
+      "time": "",
+      "location": "Fox News",
+      "platform": "Interview",
+      "context": "Discussing drone technology",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_046_lie",
+      "label": "\"We're going to build a wall, and Mexico is going to pay for it. 100%. They don't know it yet, but they're going to pay for it.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-046-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 46,
+      "date": "2015-06-16",
+      "time": "",
+      "location": "Trump Tower, New York",
+      "platform": "Speech",
+      "context": "Campaign announcement speech",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_027_funny",
+      "label": "\"I know the best words. I have the best words.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-027-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 27,
+      "date": "2016-07-12",
+      "time": "",
+      "location": "Washington Post",
+      "platform": "Interview",
+      "context": "Discussing his vocabulary",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_001_funny",
+      "label": "\"I have the best words.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-001-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 1,
+      "date": "2015-06-16",
+      "time": "",
+      "location": "Trump Tower, New York",
+      "platform": "Speech",
+      "context": "Announcing his candidacy for president",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_048_unexpected",
+      "label": "\"I love the poorly educated. We're the party of the poorly educated. I love the poorly educated.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-048-unexpected.md",
+      "vault_folder": "Quotes",
+      "quote_id": 48,
+      "date": "2016-02-23",
+      "time": "",
+      "location": "Nevada caucus victory speech",
+      "platform": "Speech",
+      "context": "Celebrating Nevada caucus win",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "unexpected",
+      "tags": [
+        "unexpected",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_052_ridiculous",
+      "label": "\"We have people in the basement of the White House - they're like robots. They do whatever you want.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-052-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 52,
+      "date": "2018-11-02",
+      "time": "",
+      "location": "Missouri rally",
+      "platform": "Rally",
+      "context": "Discussing White House staff",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_044_ridiculous",
+      "label": "\"The drought in California - if they would have clean the forests, it wouldn't have happened. You've got to clean your floors. You've got to clean your forests.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-044-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 44,
+      "date": "2018-11-12",
+      "time": "",
+      "location": "Paradise, California",
+      "platform": "Speech",
+      "context": "Discussing California wildfires",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_015_ridiculous",
+      "label": "\"The sound of wind. I love the sound of wind. I said, 'Turn up the wind please.'\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-015-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 15,
+      "date": "2017-08-23",
+      "time": "",
+      "location": "Phoenix, Arizona rally",
+      "platform": "Speech",
+      "context": "Describing his appreciation for wind sounds",
+      "source_url": "https://www.snopes.com/fact-check/trump-wind-sound/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_006_lie",
+      "label": "\"The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-006-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 6,
+      "date": "2012-11-06",
+      "time": "",
+      "location": "Twitter (now X)",
+      "platform": "X",
+      "context": "Tweet about climate change",
+      "source_url": "https://www.snopes.com/fact-check/trump-climate-change-chinese-hoax/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_002_outrageous",
+      "label": "\"We have people that are stupidly running our country.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-002-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 2,
+      "date": "2026-04-15",
+      "time": "",
+      "location": "Fox Business News",
+      "platform": "Interview",
+      "context": "Discussing current administration policies",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_053_outrageous",
+      "label": "\"I have total confidence in my military. I know more about military than the generals do.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-053-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 53,
+      "date": "2017-08-30",
+      "time": "",
+      "location": "Hurricane Harvey relief event",
+      "platform": "Speech",
+      "context": "Discussing military readiness",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_021_ridiculous",
+      "label": "\"Nobody knew health care could be so complicated.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-021-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 21,
+      "date": "2017-02-27",
+      "time": "",
+      "location": "White House",
+      "platform": "Interview",
+      "context": "Discussing healthcare reform efforts",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_038_lie",
+      "label": "\"The Continental Army suffered a bitter winter at Valley Forge, found glory in the Cold War, and emerged victorious in the hot wars and in the Cold War.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-038-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 38,
+      "date": "2019-07-04",
+      "time": "",
+      "location": "Fourth of July celebration",
+      "platform": "Speech",
+      "context": "Discussing American history with historical inaccuracies",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_030_ridiculous",
+      "label": "\"We have people in the basement of the White House - they're like robots.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-030-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 30,
+      "date": "2018-11-02",
+      "time": "",
+      "location": "Missouri rally",
+      "platform": "Rally",
+      "context": "Discussing White House staff",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_012_unexpected",
+      "label": "\"I am the most militaristic person there is.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-012-unexpected.md",
+      "vault_folder": "Quotes",
+      "quote_id": 12,
+      "date": "2016-04-02",
+      "time": "",
+      "location": "Washington Post interview",
+      "platform": "Interview",
+      "context": "Discussing military policy",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "unexpected",
+      "tags": [
+        "unexpected",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_041_lie",
+      "label": "\"We have the cleanest air in the world. We have the cleanest water in the world.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-041-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 41,
+      "date": "2019-09-23",
+      "time": "",
+      "location": "United Nations General Assembly",
+      "platform": "Speech",
+      "context": "Discussing environmental record",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_054_funny",
+      "label": "\"Test quote\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-054-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 54,
+      "date": "2025-01-01",
+      "time": "",
+      "location": "",
+      "platform": "Speech",
+      "context": "Test",
+      "source_url": "",
+      "source_name": "",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "funny",
+      "tags": [
+        "test",
+        "demo"
+      ]
+    },
+    {
+      "id": "quotes_quote_026_outrageous",
+      "label": "\"We have all the cards. They don't have the cards.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-026-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 26,
+      "date": "2017-08-22",
+      "time": "",
+      "location": "Phoenix, Arizona",
+      "platform": "Speech",
+      "context": "Discussing negotiations with North Korea",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_008_outrageous",
+      "label": "\"I could stand in the middle of Fifth Avenue and shoot somebody, and I wouldn't lose any voters.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-008-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 8,
+      "date": "2016-01-23",
+      "time": "",
+      "location": "Sioux Center, Iowa",
+      "platform": "Speech",
+      "context": "Campaign rally",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_025_ridiculous",
+      "label": "\"I have the longest red tie. I think it's the longest tie.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-025-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 25,
+      "date": "2015-09-15",
+      "time": "",
+      "location": "ABC News",
+      "platform": "Interview",
+      "context": "Discussing his fashion choices",
+      "source_url": "https://www.snopes.com/fact-check/trump-tie/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_033_funny",
+      "label": "\"I have the world's greatest memory. I never forget anything.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-033-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 33,
+      "date": "2016-09-26",
+      "time": "",
+      "location": "First presidential debate",
+      "platform": "Debate",
+      "context": "Defending his memory during debate",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_047_outrageous",
+      "label": "\"I know more about courts than any human being on earth. I think I could be a great judge.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-047-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 47,
+      "date": "2024-04-15",
+      "time": "",
+      "location": "Fox News",
+      "platform": "Interview",
+      "context": "Discussing legal cases against him",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_024_lie",
+      "label": "\"The drought in California - if they would have clean the forests, it wouldn't have happened.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-024-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 24,
+      "date": "2018-11-12",
+      "time": "",
+      "location": "Paradise, California",
+      "platform": "Speech",
+      "context": "Discussing California wildfires",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_040_funny",
+      "label": "\"I'm very highly educated. I went to the Wharton School of Business. I'm a smart person. I'm a very smart person.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-040-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 40,
+      "date": "2015-09-16",
+      "time": "",
+      "location": "CNN",
+      "platform": "Interview",
+      "context": "Discussing his qualifications",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_045_funny",
+      "label": "\"I have the best words. I have the best everything. I have the best people.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-045-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 45,
+      "date": "2016-07-12",
+      "time": "",
+      "location": "Washington Post",
+      "platform": "Interview",
+      "context": "Discussing his vocabulary and team",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_028_lie",
+      "label": "\"The noise from wind turbines causes cancer.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-028-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 28,
+      "date": "2019-04-02",
+      "time": "",
+      "location": "Washington, DC",
+      "platform": "Speech",
+      "context": "Discussing wind energy opposition",
+      "source_url": "https://www.snopes.com/fact-check/trump-wind-turbine-cancer/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_004_outrageous",
+      "label": "\"I would bomb the sh*t out of them... I would just bomb those suckers.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-004-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 4,
+      "date": "2015-11-13",
+      "time": "",
+      "location": "ABC's 'This Week' with George Stephanopoulos",
+      "platform": "Interview",
+      "context": "Discussing approach to ISIS and oil fields",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_043_funny",
+      "label": "\"I have a natural instinct for science. I'm like a smart person. I'm a very smart person.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-043-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 43,
+      "date": "2017-03-15",
+      "time": "",
+      "location": "Time Magazine",
+      "platform": "Interview",
+      "context": "Discussing climate change and science",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_018_unexpected",
+      "label": "\"I'm a very stable genius.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-018-unexpected.md",
+      "vault_folder": "Quotes",
+      "quote_id": 18,
+      "date": "2018-01-06",
+      "time": "",
+      "location": "Twitter (now X)",
+      "platform": "Social Media",
+      "context": "Responding to criticism about his mental fitness",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "unexpected",
+      "tags": [
+        "unexpected",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_036_lie",
+      "label": "\"I've always been great with money. I've always made money. I've never lost money.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-036-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 36,
+      "date": "2015-09-16",
+      "time": "",
+      "location": "CNN",
+      "platform": "Interview",
+      "context": "Discussing his business acumen",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_011_lie",
+      "label": "\"We're going to build a wall, and Mexico is going to pay for it. 100%.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-011-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 11,
+      "date": "2015-06-16",
+      "time": "",
+      "location": "Trump Tower, New York",
+      "platform": "Speech",
+      "context": "Campaign announcement",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_016_funny",
+      "label": "\"I have a very good brain and I've said a lot of things.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-016-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 16,
+      "date": "2015-07-21",
+      "time": "",
+      "location": "New York Times",
+      "platform": "Interview",
+      "context": "Defending his statements",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_049_lie",
+      "label": "\"The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-049-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 49,
+      "date": "2012-11-06",
+      "time": "",
+      "location": "Twitter (now X)",
+      "platform": "X",
+      "context": "Tweet about climate change",
+      "source_url": "https://www.snopes.com/fact-check/trump-climate-change-chinese-hoax/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_009_lie",
+      "label": "\"The Mexican government is forcing their most unwanted people into the United States.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-009-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 9,
+      "date": "2015-06-16",
+      "time": "",
+      "location": "Trump Tower, New York",
+      "platform": "Speech",
+      "context": "Campaign announcement speech",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_014_outrageous",
+      "label": "\"I know more about courts than any human being on earth.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-014-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 14,
+      "date": "2024-04-15",
+      "time": "",
+      "location": "Fox News",
+      "platform": "Interview",
+      "context": "Discussing legal cases against him",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_031_outrageous",
+      "label": "\"I have total confidence in my military.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-031-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 31,
+      "date": "2017-08-30",
+      "time": "",
+      "location": "Hurricane Harvey relief event",
+      "platform": "Speech",
+      "context": "Discussing military readiness",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_013_funny",
+      "label": "\"I have never seen a thin person drinking Diet Coke.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-013-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 13,
+      "date": "2017-06-13",
+      "time": "",
+      "location": "CBS This Morning",
+      "platform": "Interview",
+      "context": "Discussing his beverage preferences",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_007_funny",
+      "label": "\"I'm very highly educated. I went to the Wharton School of Business. I'm a smart person.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-007-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 7,
+      "date": "2015-09-16",
+      "time": "",
+      "location": "CNN",
+      "platform": "Interview",
+      "context": "Discussing his qualifications",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_017_outrageous",
+      "label": "\"We won with the low-education voter. That's the most loyal people.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-017-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 17,
+      "date": "2016-05-03",
+      "time": "",
+      "location": "CNN",
+      "platform": "Interview",
+      "context": "Discussing his voter base",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_039_outrageous",
+      "label": "\"I know more about construction than anybody. I build buildings. I know more about environmental impact than anybody.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-039-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 39,
+      "date": "2016-05-10",
+      "time": "",
+      "location": "CNBC",
+      "platform": "Interview",
+      "context": "Discussing environmental regulations",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_051_funny",
+      "label": "\"I'm a very stable genius. I'm like a smart person. I know words. I have the best words.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-051-funny.md",
+      "vault_folder": "Quotes",
+      "quote_id": 51,
+      "date": "2018-01-06",
+      "time": "",
+      "location": "Twitter (now X)",
+      "platform": "Social Media",
+      "context": "Responding to criticism about his mental fitness",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "funny",
+      "tags": [
+        "funny",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_042_outrageous",
+      "label": "\"I've never been a fan of the New York Times. They've treated me very unfairly. They're a failing newspaper.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-042-outrageous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 42,
+      "date": "2016-11-22",
+      "time": "",
+      "location": "Time Magazine",
+      "platform": "Interview",
+      "context": "Criticizing media coverage",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "outrageous",
+      "tags": [
+        "outrageous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_029_unexpected",
+      "label": "\"I'm the least racist person you have ever interviewed.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-029-unexpected.md",
+      "vault_folder": "Quotes",
+      "quote_id": 29,
+      "date": "2018-01-14",
+      "time": "",
+      "location": "CBS",
+      "platform": "Interview",
+      "context": "Responding to racism accusations",
+      "source_url": "https://www.factcheck.org/person/donald-trump/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "unexpected",
+      "tags": [
+        "unexpected",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_034_lie",
+      "label": "\"The noise from wind turbines causes cancer. I never understood wind.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-034-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 34,
+      "date": "2019-04-02",
+      "time": "",
+      "location": "Washington, DC",
+      "platform": "Speech",
+      "context": "Discussing opposition to wind energy",
+      "source_url": "https://www.snopes.com/fact-check/trump-wind-turbine-cancer/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_032_lie",
+      "label": "\"The election was rigged. I won easily.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-032-lie.md",
+      "vault_folder": "Quotes",
+      "quote_id": 32,
+      "date": "2020-11-07",
+      "time": "",
+      "location": "White House",
+      "platform": "Statement",
+      "context": "After 2020 election results",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "lie",
+      "tags": [
+        "lie",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_022_unexpected",
+      "label": "\"I have a very good relationship with Kim Jong Un.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-022-unexpected.md",
+      "vault_folder": "Quotes",
+      "quote_id": 22,
+      "date": "2018-06-12",
+      "time": "",
+      "location": "Singapore Summit",
+      "platform": "Press Conference",
+      "context": "After meeting with North Korean leader",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "unexpected",
+      "tags": [
+        "unexpected",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_010_ridiculous",
+      "label": "\"I know words. I have the best words. But there is no better word than stupid.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-010-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 10,
+      "date": "2016-07-12",
+      "time": "",
+      "location": "Washington Post",
+      "platform": "Interview",
+      "context": "Interview with Bob Woodward",
+      "source_url": "https://www.snopes.com/fact-check/trump-best-words/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_003_ridiculous",
+      "label": "\"Religion is such a great thing. There's something to be good about.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-003-ridiculous.md",
+      "vault_folder": "Quotes",
+      "quote_id": 3,
+      "date": "2024-06-01",
+      "time": "",
+      "location": "Fox News with Rachel Campos-Duffy",
+      "platform": "Interview",
+      "context": "Answering question about his relationship to God",
+      "source_url": "https://www.snopes.com/fact-check/trump-really-said-religion-is-such-a-great-thing-theres-something-to-be-good-about/",
+      "source_name": "Snopes",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "ridiculous",
+      "tags": [
+        "ridiculous",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_005_unexpected",
+      "label": "\"I know more about ISIS than the generals do, believe me.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-005-unexpected.md",
+      "vault_folder": "Quotes",
+      "quote_id": 5,
+      "date": "2016-02-29",
+      "time": "",
+      "location": "Radford, Virginia rally",
+      "platform": "Speech",
+      "context": "Campaign rally discussing military strategy",
+      "source_url": "https://www.politifact.com/factchecks/list/?speaker=donald-trump",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 1,
+      "category": "unexpected",
+      "tags": [
+        "unexpected",
+        "trump",
+        "quote"
+      ]
+    },
+    {
+      "id": "tag_dashboard",
+      "label": "dashboard",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_moc",
+      "label": "MOC",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_quotes",
+      "label": "quotes",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_outrageous",
+      "label": "outrageous",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_person",
+      "label": "person",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_lie",
+      "label": "lie",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_rotus",
+      "label": "ROTUS",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_unexpected",
+      "label": "unexpected",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_test",
+      "label": "test",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_trump",
+      "label": "trump",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_ridiculous",
+      "label": "ridiculous",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_demo",
+      "label": "demo",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_quote",
+      "label": "quote",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_topic",
+      "label": "topic",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_funny",
+      "label": "funny",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_potus",
+      "label": "potus",
+      "file_type": "tag",
+      "source_file": "",
+      "vault_folder": "Tags"
+    }
+  ],
+  "edges": [
+    {
+      "source": "topics_funny_quotes",
+      "target": "topics_outrageous_quotes",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Funny-Quotes.md"
+    },
+    {
+      "source": "topics_outrageous_quotes",
+      "target": "topics_funny_quotes",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Outrageous-Quotes.md"
+    },
+    {
+      "source": "quotes_quote_020_unexpected",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-020-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_037_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-037-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_023_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-023-funny.md"
+    },
+    {
+      "source": "quotes_quote_019_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-019-lie.md"
+    },
+    {
+      "source": "quotes_quote_050_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-050-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_035_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-035-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_046_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-046-lie.md"
+    },
+    {
+      "source": "quotes_quote_027_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-027-funny.md"
+    },
+    {
+      "source": "quotes_quote_001_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-001-funny.md"
+    },
+    {
+      "source": "quotes_quote_048_unexpected",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-048-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_052_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-052-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_044_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-044-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_015_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-015-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_006_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-006-lie.md"
+    },
+    {
+      "source": "quotes_quote_002_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-002-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_053_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-053-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_021_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-021-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_038_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-038-lie.md"
+    },
+    {
+      "source": "quotes_quote_030_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-030-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_012_unexpected",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-012-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_041_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-041-lie.md"
+    },
+    {
+      "source": "quotes_quote_054_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-054-funny.md"
+    },
+    {
+      "source": "quotes_quote_026_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-026-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_008_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-008-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_025_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-025-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_033_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-033-funny.md"
+    },
+    {
+      "source": "quotes_quote_047_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-047-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_024_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-024-lie.md"
+    },
+    {
+      "source": "quotes_quote_040_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-040-funny.md"
+    },
+    {
+      "source": "quotes_quote_045_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-045-funny.md"
+    },
+    {
+      "source": "quotes_quote_028_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-028-lie.md"
+    },
+    {
+      "source": "quotes_quote_004_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-004-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_043_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-043-funny.md"
+    },
+    {
+      "source": "quotes_quote_018_unexpected",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-018-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_036_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-036-lie.md"
+    },
+    {
+      "source": "quotes_quote_011_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-011-lie.md"
+    },
+    {
+      "source": "quotes_quote_016_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-016-funny.md"
+    },
+    {
+      "source": "quotes_quote_049_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-049-lie.md"
+    },
+    {
+      "source": "quotes_quote_009_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-009-lie.md"
+    },
+    {
+      "source": "quotes_quote_014_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-014-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_031_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-031-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_013_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-013-funny.md"
+    },
+    {
+      "source": "quotes_quote_007_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-007-funny.md"
+    },
+    {
+      "source": "quotes_quote_017_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-017-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_039_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-039-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_051_funny",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-051-funny.md"
+    },
+    {
+      "source": "quotes_quote_042_outrageous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-042-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_029_unexpected",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-029-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_034_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-034-lie.md"
+    },
+    {
+      "source": "quotes_quote_032_lie",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-032-lie.md"
+    },
+    {
+      "source": "quotes_quote_022_unexpected",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-022-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_010_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-010-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_003_ridiculous",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-003-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_005_unexpected",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-005-unexpected.md"
+    },
+    {
+      "source": "dashboards_rotus_dashboard",
+      "target": "tag_dashboard",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Dashboards/ROTUS-Dashboard.md"
+    },
+    {
+      "source": "dashboards_rotus_dashboard",
+      "target": "tag_moc",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Dashboards/ROTUS-Dashboard.md"
+    },
+    {
+      "source": "dashboards_rotus_dashboard",
+      "target": "tag_rotus",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Dashboards/ROTUS-Dashboard.md"
+    },
+    {
+      "source": "people_donald_trump",
+      "target": "tag_person",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "People/Donald-Trump.md"
+    },
+    {
+      "source": "people_donald_trump",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "People/Donald-Trump.md"
+    },
+    {
+      "source": "people_donald_trump",
+      "target": "tag_potus",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "People/Donald-Trump.md"
+    },
+    {
+      "source": "topics_funny_quotes",
+      "target": "tag_topic",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Funny-Quotes.md"
+    },
+    {
+      "source": "topics_funny_quotes",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Funny-Quotes.md"
+    },
+    {
+      "source": "topics_funny_quotes",
+      "target": "tag_quotes",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Funny-Quotes.md"
+    },
+    {
+      "source": "topics_outrageous_quotes",
+      "target": "tag_topic",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Outrageous-Quotes.md"
+    },
+    {
+      "source": "topics_outrageous_quotes",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Outrageous-Quotes.md"
+    },
+    {
+      "source": "topics_outrageous_quotes",
+      "target": "tag_quotes",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Topics/Outrageous-Quotes.md"
+    },
+    {
+      "source": "quotes_quote_020_unexpected",
+      "target": "tag_unexpected",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-020-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_020_unexpected",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-020-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_020_unexpected",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-020-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_037_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-037-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_037_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-037-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_037_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-037-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_023_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-023-funny.md"
+    },
+    {
+      "source": "quotes_quote_023_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-023-funny.md"
+    },
+    {
+      "source": "quotes_quote_023_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-023-funny.md"
+    },
+    {
+      "source": "quotes_quote_019_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-019-lie.md"
+    },
+    {
+      "source": "quotes_quote_019_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-019-lie.md"
+    },
+    {
+      "source": "quotes_quote_019_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-019-lie.md"
+    },
+    {
+      "source": "quotes_quote_050_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-050-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_050_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-050-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_050_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-050-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_035_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-035-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_035_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-035-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_035_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-035-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_046_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-046-lie.md"
+    },
+    {
+      "source": "quotes_quote_046_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-046-lie.md"
+    },
+    {
+      "source": "quotes_quote_046_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-046-lie.md"
+    },
+    {
+      "source": "quotes_quote_027_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-027-funny.md"
+    },
+    {
+      "source": "quotes_quote_027_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-027-funny.md"
+    },
+    {
+      "source": "quotes_quote_027_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-027-funny.md"
+    },
+    {
+      "source": "quotes_quote_001_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-001-funny.md"
+    },
+    {
+      "source": "quotes_quote_001_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-001-funny.md"
+    },
+    {
+      "source": "quotes_quote_001_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-001-funny.md"
+    },
+    {
+      "source": "quotes_quote_048_unexpected",
+      "target": "tag_unexpected",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-048-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_048_unexpected",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-048-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_048_unexpected",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-048-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_052_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-052-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_052_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-052-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_052_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-052-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_044_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-044-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_044_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-044-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_044_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-044-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_015_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-015-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_015_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-015-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_015_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-015-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_006_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-006-lie.md"
+    },
+    {
+      "source": "quotes_quote_006_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-006-lie.md"
+    },
+    {
+      "source": "quotes_quote_006_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-006-lie.md"
+    },
+    {
+      "source": "quotes_quote_002_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-002-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_002_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-002-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_002_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-002-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_053_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-053-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_053_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-053-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_053_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-053-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_021_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-021-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_021_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-021-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_021_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-021-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_038_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-038-lie.md"
+    },
+    {
+      "source": "quotes_quote_038_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-038-lie.md"
+    },
+    {
+      "source": "quotes_quote_038_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-038-lie.md"
+    },
+    {
+      "source": "quotes_quote_030_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-030-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_030_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-030-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_030_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-030-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_012_unexpected",
+      "target": "tag_unexpected",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-012-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_012_unexpected",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-012-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_012_unexpected",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-012-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_041_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-041-lie.md"
+    },
+    {
+      "source": "quotes_quote_041_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-041-lie.md"
+    },
+    {
+      "source": "quotes_quote_041_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-041-lie.md"
+    },
+    {
+      "source": "quotes_quote_054_funny",
+      "target": "tag_test",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-054-funny.md"
+    },
+    {
+      "source": "quotes_quote_054_funny",
+      "target": "tag_demo",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-054-funny.md"
+    },
+    {
+      "source": "quotes_quote_026_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-026-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_026_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-026-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_026_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-026-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_008_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-008-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_008_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-008-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_008_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-008-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_025_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-025-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_025_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-025-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_025_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-025-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_033_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-033-funny.md"
+    },
+    {
+      "source": "quotes_quote_033_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-033-funny.md"
+    },
+    {
+      "source": "quotes_quote_033_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-033-funny.md"
+    },
+    {
+      "source": "quotes_quote_047_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-047-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_047_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-047-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_047_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-047-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_024_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-024-lie.md"
+    },
+    {
+      "source": "quotes_quote_024_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-024-lie.md"
+    },
+    {
+      "source": "quotes_quote_024_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-024-lie.md"
+    },
+    {
+      "source": "quotes_quote_040_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-040-funny.md"
+    },
+    {
+      "source": "quotes_quote_040_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-040-funny.md"
+    },
+    {
+      "source": "quotes_quote_040_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-040-funny.md"
+    },
+    {
+      "source": "quotes_quote_045_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-045-funny.md"
+    },
+    {
+      "source": "quotes_quote_045_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-045-funny.md"
+    },
+    {
+      "source": "quotes_quote_045_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-045-funny.md"
+    },
+    {
+      "source": "quotes_quote_028_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-028-lie.md"
+    },
+    {
+      "source": "quotes_quote_028_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-028-lie.md"
+    },
+    {
+      "source": "quotes_quote_028_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-028-lie.md"
+    },
+    {
+      "source": "quotes_quote_004_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-004-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_004_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-004-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_004_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-004-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_043_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-043-funny.md"
+    },
+    {
+      "source": "quotes_quote_043_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-043-funny.md"
+    },
+    {
+      "source": "quotes_quote_043_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-043-funny.md"
+    },
+    {
+      "source": "quotes_quote_018_unexpected",
+      "target": "tag_unexpected",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-018-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_018_unexpected",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-018-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_018_unexpected",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-018-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_036_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-036-lie.md"
+    },
+    {
+      "source": "quotes_quote_036_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-036-lie.md"
+    },
+    {
+      "source": "quotes_quote_036_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-036-lie.md"
+    },
+    {
+      "source": "quotes_quote_011_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-011-lie.md"
+    },
+    {
+      "source": "quotes_quote_011_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-011-lie.md"
+    },
+    {
+      "source": "quotes_quote_011_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-011-lie.md"
+    },
+    {
+      "source": "quotes_quote_016_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-016-funny.md"
+    },
+    {
+      "source": "quotes_quote_016_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-016-funny.md"
+    },
+    {
+      "source": "quotes_quote_016_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-016-funny.md"
+    },
+    {
+      "source": "quotes_quote_049_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-049-lie.md"
+    },
+    {
+      "source": "quotes_quote_049_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-049-lie.md"
+    },
+    {
+      "source": "quotes_quote_049_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-049-lie.md"
+    },
+    {
+      "source": "quotes_quote_009_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-009-lie.md"
+    },
+    {
+      "source": "quotes_quote_009_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-009-lie.md"
+    },
+    {
+      "source": "quotes_quote_009_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-009-lie.md"
+    },
+    {
+      "source": "quotes_quote_014_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-014-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_014_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-014-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_014_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-014-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_031_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-031-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_031_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-031-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_031_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-031-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_013_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-013-funny.md"
+    },
+    {
+      "source": "quotes_quote_013_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-013-funny.md"
+    },
+    {
+      "source": "quotes_quote_013_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-013-funny.md"
+    },
+    {
+      "source": "quotes_quote_007_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-007-funny.md"
+    },
+    {
+      "source": "quotes_quote_007_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-007-funny.md"
+    },
+    {
+      "source": "quotes_quote_007_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-007-funny.md"
+    },
+    {
+      "source": "quotes_quote_017_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-017-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_017_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-017-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_017_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-017-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_039_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-039-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_039_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-039-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_039_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-039-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_051_funny",
+      "target": "tag_funny",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-051-funny.md"
+    },
+    {
+      "source": "quotes_quote_051_funny",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-051-funny.md"
+    },
+    {
+      "source": "quotes_quote_051_funny",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-051-funny.md"
+    },
+    {
+      "source": "quotes_quote_042_outrageous",
+      "target": "tag_outrageous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-042-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_042_outrageous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-042-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_042_outrageous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-042-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_029_unexpected",
+      "target": "tag_unexpected",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-029-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_029_unexpected",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-029-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_029_unexpected",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-029-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_034_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-034-lie.md"
+    },
+    {
+      "source": "quotes_quote_034_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-034-lie.md"
+    },
+    {
+      "source": "quotes_quote_034_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-034-lie.md"
+    },
+    {
+      "source": "quotes_quote_032_lie",
+      "target": "tag_lie",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-032-lie.md"
+    },
+    {
+      "source": "quotes_quote_032_lie",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-032-lie.md"
+    },
+    {
+      "source": "quotes_quote_032_lie",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-032-lie.md"
+    },
+    {
+      "source": "quotes_quote_022_unexpected",
+      "target": "tag_unexpected",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-022-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_022_unexpected",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-022-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_022_unexpected",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-022-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_010_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-010-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_010_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-010-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_010_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-010-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_003_ridiculous",
+      "target": "tag_ridiculous",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-003-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_003_ridiculous",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-003-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_003_ridiculous",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-003-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_005_unexpected",
+      "target": "tag_unexpected",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-005-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_005_unexpected",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-005-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_005_unexpected",
+      "target": "tag_quote",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-005-unexpected.md"
+    }
+  ]
+}
