@@ -528,13 +528,22 @@
         const isMobile = isCapacitor || /Android|iPhone|iPad/i.test(navigator.userAgent);
         const pageSize = 20;
         let nextOffset = 0;
+        let bundleCache = null; // Cache for quotes bundle
+        let currentQuote = null; // Currently displayed quote
+
+        async function getBundle() {
+            if (bundleCache) return bundleCache;
+            const res = await fetch('quotes-bundle.json');
+            if (!res.ok) throw new Error('Failed to load quotes bundle');
+            bundleCache = await res.json();
+            return bundleCache;
+        }
 
         async function loadStats() {
             try {
                 if (isCapacitor || isMobile) {
                     // Load from bundle for mobile
-                    const res = await fetch('quotes-bundle.json');
-                    const quotes = await res.json();
+                    const quotes = await getBundle();
                     const total = quotes.length;
                     const verified = quotes.filter(q => q.verification_status === 'verified').length;
                     const sources = new Set(quotes.map(q => q.source_name).filter(Boolean)).size;
@@ -584,17 +593,8 @@
                 // Use offline bundle for mobile/Capacitor, API for web
                 if (isCapacitor || isMobile) {
                     // Load from bundled JSON
-                    const res = await fetch('quotes-bundle.json');
-                    quotes = await res.json();
-
-                    // Apply filters client-side
-                    if (search) {
-                        const searchLower = search.toLowerCase();
-                        quotes = quotes.filter(q =>
-                            (q.quote_text && q.quote_text.toLowerCase().includes(searchLower)) ||
-                            (q.context && q.context.toLowerCase().includes(searchLower))
-                        );
-                    }
+                    quotes = await getBundle();
+                }
                     if (platform) {
                         quotes = quotes.filter(q => {
                             const qPlatform = q.platform || '';
@@ -660,7 +660,7 @@
                 }
             } catch (e) {
                 console.error('Load quotes error:', e);
-                document.getElementById('quotes-container').innerHTML = '<div class="loading">Error loading quotes. Pull down to refresh.</div>';
+                document.getElementById('quotes-container').innerHTML = '<div class="loading">Error loading quotes. Please try again.</div>';
                 hideLoadMore();
             }
         }
@@ -735,6 +735,7 @@
         }
 
         function populateModal(q) {
+            currentQuote = q;
             const modalBody = document.getElementById('modal-body');
             modalBody.innerHTML = `
                 <div class="modal-quote" data-testid="modal-quote">"${escapeHtml(q.quote_text)}"</div>
@@ -799,23 +800,43 @@
 
         async function showQuote(id) {
             try {
-                const res = await fetch(`${API}/api/quotes/${id}`);
-                const q = await res.json();
+                let q;
+                if (isCapacitor || isMobile) {
+                    const bundle = await getBundle();
+                    q = bundle.find(q => q.id === id);
+                    if (!q) throw new Error('Quote not found in offline data');
+                } else {
+                    const res = await fetch(`${API}/api/quotes/${id}`);
+                    q = await res.json();
+                }
                 populateModal(q);
             } catch (e) {
                 console.error('Quote detail error:', e);
+                alert('Failed to load quote details.');
             }
         }
 
-        let cachedBundle = [];
+
         async function showRandomQuote() {
             try {
                 let quote;
                 if (isCapacitor || isMobile) {
-                    if (cachedBundle.length === 0) {
-                        const res = await fetch('quotes-bundle.json');
-                        cachedBundle = await res.json();
+                    const bundle = await getBundle();
+                    const verified = bundle.filter(q => q.verification_status === 'verified');
+                    if (verified.length > 0) {
+                        quote = verified[Math.floor(Math.random() * verified.length)];
+                        populateModal(quote);
+                        return;
                     }
+                }
+                const res = await fetch(`${API}/api/quotes/random`);
+                quote = await res.json();
+                populateModal(quote);
+            } catch (e) {
+                console.error('Random quote error:', e);
+                alert('Failed to load a random quote. Please check your connection.');
+            }
+        }
                     const verified = cachedBundle.filter(q => q.verification_status === 'verified');
                     if (verified.length > 0) {
                         quote = verified[Math.floor(Math.random() * verified.length)];
@@ -870,8 +891,15 @@
 
         async function shareQuote(id) {
             try {
-                const res = await fetch(`${API}/api/quotes/${id}`);
-                const q = await res.json();
+                let q;
+                if (isCapacitor || isMobile) {
+                    const bundle = await getBundle();
+                    q = bundle.find(q => q.id === id);
+                    if (!q) throw new Error('Quote not found in offline data');
+                } else {
+                    const res = await fetch(`${API}/api/quotes/${id}`);
+                    q = await res.json();
+                }
                 const shareText = `"${q.quote_text}" - Donald Trump (${q.date_spoken || 'Unknown date'})`;
 
                 if (navigator.share) {
@@ -895,13 +923,21 @@
                 }
             } catch (e) {
                 console.error('Share error:', e);
+                alert('Failed to share quote.');
             }
         }
 
         async function copyQuote(id) {
             try {
-                const res = await fetch(`${API}/api/quotes/${id}`);
-                const q = await res.json();
+                let q;
+                if (isCapacitor || isMobile) {
+                    const bundle = await getBundle();
+                    q = bundle.find(q => q.id === id);
+                    if (!q) throw new Error('Quote not found in offline data');
+                } else {
+                    const res = await fetch(`${API}/api/quotes/${id}`);
+                    q = await res.json();
+                }
                 const copyText = `"${q.quote_text}" - Donald Trump (${q.date_spoken || 'Unknown'})\n\nSource: ${q.source_url || (q.sources && q.sources[0]?.url) || 'N/A'}`;
                 copyToClipboard(copyText);
 
@@ -916,6 +952,7 @@
                 }
             } catch (e) {
                 console.error('Copy error:', e);
+                alert('Failed to copy quote.');
             }
         }
 
