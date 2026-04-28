@@ -5,5 +5,4 @@ appId: com.rotus.app
 - waitForAnimation
 - assertVisible: "~quotes-container"
 - assertVisible: "~quote-card"
-- assertVisible: "~stats"
-- runFlow: ../p1/01a-first-load.yml
+ - assertVisible: "~stats"
