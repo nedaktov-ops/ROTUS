@@ -594,12 +594,17 @@
                 if (isCapacitor || isMobile) {
                     // Load from bundled JSON
                     quotes = await getBundle();
-                }
+
+                    // Apply filters client-side
+                    if (search) {
+                        const searchLower = search.toLowerCase();
+                        quotes = quotes.filter(q =>
+                            (q.quote_text && q.quote_text.toLowerCase().includes(searchLower)) ||
+                            (q.context && q.context && q.context.toLowerCase().includes(searchLower))
+                        );
+                    }
                     if (platform) {
-                        quotes = quotes.filter(q => {
-                            const qPlatform = q.platform || '';
-                            return qPlatform === platform;
-                        });
+                        quotes = quotes.filter(q => q.platform === platform);
                     }
                     if (category) {
                         quotes = quotes.filter(q => q.category === category);
@@ -627,9 +632,8 @@
                         });
                     }
 
-                    // Pagination
-                    const offset = 0;
-                    quotes = quotes.slice(offset, pageSize);
+                    // Pagination: first page only
+                    quotes = quotes.slice(0, pageSize);
                 } else {
                     // Use API for web version
                     const params = new URLSearchParams();
@@ -675,8 +679,7 @@
                 let quotes;
 
                 if (isCapacitor || isMobile) {
-                    const res = await fetch('quotes-bundle.json');
-                    quotes = await res.json();
+                    quotes = await getBundle();
 
                     // Apply all filters and sorting
                     if (search) {
@@ -835,20 +838,6 @@
             } catch (e) {
                 console.error('Random quote error:', e);
                 alert('Failed to load a random quote. Please check your connection.');
-            }
-        }
-                    const verified = cachedBundle.filter(q => q.verification_status === 'verified');
-                    if (verified.length > 0) {
-                        quote = verified[Math.floor(Math.random() * verified.length)];
-                        populateModal(quote);
-                        return;
-                    }
-                }
-                const res = await fetch(`${API}/api/quotes/random`);
-                quote = await res.json();
-                populateModal(quote);
-            } catch (e) {
-                console.error('Random quote error:', e);
             }
         }
 
