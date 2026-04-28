@@ -19,10 +19,10 @@ def main():
 
     # Configure limits as needed
     collectors = [
-        FactCheckCollector(max_articles=50),      # FactCheck.org: up to 50 articles
-        PolitiFactCollector(max_statements=50),  # PolitiFact: up to 50 statements
-        TwitterArchiveCollector(limit=200),      # Trump Twitter Archive: recent 200 tweets (network may limit)
-        SnopesCollector(max_claims=20),          # Snopes: up to 20 claims
+        FactCheckCollector(max_articles=100),      # FactCheck.org: up to 100 articles
+        PolitiFactCollector(max_statements=100),  # PolitiFact: up to 100 statements
+        TwitterArchiveCollector(limit=500),       # Trump Twitter Archive: recent 500 tweets
+        SnopesCollector(max_claims=50),           # Snopes: up to 50 claims
     ]
 
     for collector in collectors:

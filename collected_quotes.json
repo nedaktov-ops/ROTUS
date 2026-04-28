@@ -356,5 +356,605 @@
       "politifact",
       "is-medium"
     ]
+  },
+  {
+    "quote_text": "Crime in Minneapolis “is down 25, 30% because we’ve removed thousands of criminals from the area.”",
+    "date_spoken": "2026-02-08",
+    "platform": null,
+    "location": null,
+    "context": "stated on February 8, 2026 in an interview on NBC:",
+    "source_url": "https://www.politifact.com/factchecks/2026/feb/13/donald-trump/Minneapolis-Minnesota-immigration-crime-drop/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/feb/13/donald-trump/Minneapolis-Minnesota-immigration-crime-drop/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "\"The crime rate now is the lowest it's been since 1900. That's 125 years.\"",
+    "date_spoken": "2026-02-03",
+    "platform": null,
+    "location": null,
+    "context": "stated on February 3, 2026 in remarks in the Oval Office:",
+    "source_url": "https://www.politifact.com/factchecks/2026/feb/12/donald-trump/murder-crime-rate-lowest-125-years-FBI/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/feb/12/donald-trump/murder-crime-rate-lowest-125-years-FBI/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "“We right now have more factories and plants being built in our country than we've ever had before.”",
+    "date_spoken": "2026-01-27",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 27, 2026 in remarks at a restaurant in Iowa:",
+    "source_url": "https://www.politifact.com/factchecks/2026/feb/09/donald-trump/factory-manufacturing-construction-record-high/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/feb/09/donald-trump/factory-manufacturing-construction-record-high/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Among Somalis in Minnesota, “92% of them don’t work.”",
+    "date_spoken": "2026-02-02",
+    "platform": null,
+    "location": null,
+    "context": "stated on February 2, 2026 in an interview with Dan Bongino:",
+    "source_url": "https://www.politifact.com/factchecks/2026/feb/02/donald-trump/Bongino-minnesota-somali-employment-poverty-benefi/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/feb/02/donald-trump/Bongino-minnesota-somali-employment-poverty-benefi/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "In artificial intelligence, “We're leading China by a lot.”",
+    "date_spoken": "2026-01-21",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 21, 2026 in remarks:",
+    "source_url": "https://www.politifact.com/factchecks/2026/jan/29/donald-trump/trump-says-the-us-leads-china-by-a-lot-in-ai-exper/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/jan/29/donald-trump/trump-says-the-us-leads-china-by-a-lot-in-ai-exper/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Protesters against the federal immigration crackdown in Minnesota are conducting “fake protests done by agitators and professional insurrectionists. …They're professional troublemakers.”",
+    "date_spoken": "2026-01-21",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 21, 2026 in a speech in Davos:",
+    "source_url": "https://www.politifact.com/factchecks/2026/jan/26/donald-trump/Trump-paid-protesters-ICE-Minnesota-Minneapolis/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/jan/26/donald-trump/Trump-paid-protesters-ICE-Minnesota-Minneapolis/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "The former U.S. childhood vaccine schedule called for babies to get “72 injections.”",
+    "date_spoken": "2026-01-05",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 5, 2026 in a graphic on Truth Social and Instagram:",
+    "source_url": "https://www.politifact.com/factchecks/2026/jan/15/donald-trump/childhood-vaccine-schedule-injections-CDC-shots/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/jan/15/donald-trump/childhood-vaccine-schedule-injections-CDC-shots/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "\"If we stop this fraud, this massive fraud, we're going to have a balanced budget.\"",
+    "date_spoken": "2026-01-13",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 13, 2026 in a speech in Detroit:",
+    "source_url": "https://www.politifact.com/factchecks/2026/jan/13/donald-trump/fraud-budget-deficit-detroit-minnesota/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/jan/13/donald-trump/fraud-budget-deficit-detroit-minnesota/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Credit card companies would be “in violation of the law” if they don’t cap interest rates at 10% by Jan. 20.",
+    "date_spoken": "2026-01-11",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 11, 2026 in remarks to reporters:",
+    "source_url": "https://www.politifact.com/factchecks/2026/jan/12/donald-trump/trump-credit-card-interest-rate-10-percent-law/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/jan/12/donald-trump/trump-credit-card-interest-rate-10-percent-law/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Maduro was “flooding America with deadly fentanyl.”",
+    "date_spoken": "2026-01-05",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 5, 2026 in an X post:",
+    "source_url": "https://www.politifact.com/factchecks/2026/jan/07/donald-trump/Maduro-fentanyl-venezuela-mexico-trump/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/jan/07/donald-trump/Maduro-fentanyl-venezuela-mexico-trump/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Gov. Tim Walz had Democratic lawmaker Melissa Hortman killed.",
+    "date_spoken": "2026-01-03",
+    "platform": null,
+    "location": null,
+    "context": "stated on January 3, 2026 in a post on Truth Social:",
+    "source_url": "https://www.politifact.com/factchecks/2026/jan/06/donald-trump/trump-amplifies-conspiracy-theory-that-gov-tim-wal/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2026/jan/06/donald-trump/trump-amplifies-conspiracy-theory-that-gov-tim-wal/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "The U.S. has received promises of investments totaling $18 trillion to $22 trillion since January.",
+    "date_spoken": "2025-12-09",
+    "platform": null,
+    "location": null,
+    "context": "stated on December 9, 2025 in public events:",
+    "source_url": "https://www.politifact.com/factchecks/2025/dec/09/donald-trump/foreign-corporate-investment-18-22-trillion/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/dec/09/donald-trump/foreign-corporate-investment-18-22-trillion/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Video muestra noticia de “última hora” en el que el presidente venezolano Nicolás Maduro se “rindió públicamente” ante el presidente Donald Trump.",
+    "date_spoken": "2025-12-01",
+    "platform": null,
+    "location": null,
+    "context": "stated on December 1, 2025 in una publicación en Truth Social:",
+    "source_url": "https://www.politifact.com/factchecks/2025/dec/04/donald-trump/Trump-Maduro-no-se-rinde-publicamente/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/dec/04/donald-trump/Trump-Maduro-no-se-rinde-publicamente/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Any pardon signed with an autopen is now \"fully and completely terminated, and is of no legal effect.\"",
+    "date_spoken": "2025-12-02",
+    "platform": null,
+    "location": null,
+    "context": "stated on December 2, 2025 in a Truth Social post:",
+    "source_url": "https://www.politifact.com/factchecks/2025/dec/04/donald-trump/revoke-pardon-biden-autopen/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/dec/04/donald-trump/revoke-pardon-biden-autopen/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Video shows “breaking” news that Venezuelan President Nicolás Maduro \"publicly surrendered\" to President Donald Trump.",
+    "date_spoken": "2025-12-01",
+    "platform": null,
+    "location": null,
+    "context": "stated on December 1, 2025 in a Truth Social post:",
+    "source_url": "https://www.politifact.com/factchecks/2025/dec/03/donald-trump/Trump-Maduro-didnt-surrender-publicly/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/dec/03/donald-trump/Trump-Maduro-didnt-surrender-publicly/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "“I have just gotten the highest poll numbers of my ‘political career.’”",
+    "date_spoken": "2025-11-22",
+    "platform": null,
+    "location": null,
+    "context": "stated on November 22, 2025 in a Truth Social post:",
+    "source_url": "https://www.politifact.com/factchecks/2025/nov/24/donald-trump/poll-approval-disapproval-aggregation-highest-ever/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/nov/24/donald-trump/poll-approval-disapproval-aggregation-highest-ever/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Stock prices for health insurance companies are “up over 1,000% over a short period of time.”",
+    "date_spoken": "2025-11-16",
+    "platform": null,
+    "location": null,
+    "context": "stated on November 16, 2025 in remarks to reporters:",
+    "source_url": "https://www.politifact.com/factchecks/2025/nov/19/donald-trump/health-insurance-company-stock-price-1000-percent/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/nov/19/donald-trump/health-insurance-company-stock-price-1000-percent/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "“My tariffs … are helping to slash the deficit this year by more than 25%.”",
+    "date_spoken": "2025-11-12",
+    "platform": null,
+    "location": null,
+    "context": "stated on November 12, 2025 in an X post:",
+    "source_url": "https://www.politifact.com/factchecks/2025/nov/14/donald-trump/tariff-deficit-reduction-25-percent/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/nov/14/donald-trump/tariff-deficit-reduction-25-percent/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "Walmart’s 2025 package of Thanksgiving dinner ingredients shows a “25% reduction in costs for Thanksgiving between (President Joe) Biden and me.”",
+    "date_spoken": "2025-11-06",
+    "platform": null,
+    "location": null,
+    "context": "stated on November 6, 2025 in remarks at a dinner:",
+    "source_url": "https://www.politifact.com/factchecks/2025/nov/14/donald-trump/walmart-thanksgiving-grocery-prices-inflation/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/nov/14/donald-trump/walmart-thanksgiving-grocery-prices-inflation/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
+  },
+  {
+    "quote_text": "“DOGE halts yearly payment of $2.5 million to Barack Obama for ‘royalties linked to Obamacare.’”",
+    "date_spoken": "2025-11-09",
+    "platform": null,
+    "location": null,
+    "context": "stated on November 9, 2025 in a Truth Social post:",
+    "source_url": "https://www.politifact.com/factchecks/2025/nov/10/donald-trump/is-obama-getting-royalties-from-obamacare-no-trump/",
+    "source_name": "PolitiFact",
+    "category": null,
+    "sources": [
+      {
+        "url": "https://www.politifact.com/factchecks/2025/nov/10/donald-trump/is-obama-getting-royalties-from-obamacare-no-trump/",
+        "title": "PolitiFact: is-medium",
+        "source_type": "factcheck",
+        "publication_date": null,
+        "verified_by": "PolitiFact"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Donald Trump",
+        "type": "person"
+      }
+    ],
+    "tags": [
+      "trump",
+      "politifact",
+      "is-medium"
+    ]
   }
 ]

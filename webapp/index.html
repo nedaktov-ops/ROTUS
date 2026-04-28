@@ -385,6 +385,38 @@
             background: var(--primary-dark);
         }
 
+        .share-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 0.5rem 1rem;
+            border: 2px solid var(--primary);
+            background: white;
+            color: var(--primary);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.2s, color 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .share-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .share-btn.copied {
+            background: #27ae60;
+            border-color: #27ae60;
+            color: white;
+        }
+
         .loading {
             text-align: center;
             padding: 3rem;
@@ -495,16 +527,30 @@
 
     <script>
         const API = window.location.origin;
+        const isCapacitor = !!window.Capacitor;
+        const isMobile = isCapacitor || /Android|iPhone|iPad/i.test(navigator.userAgent);
         const pageSize = 20;
         let nextOffset = 0;
 
         async function loadStats() {
             try {
-                const res = await fetch(`${API}/api/stats`);
-                const data = await res.json();
-                document.getElementById('total-quotes').textContent = data.total || 0;
-                document.getElementById('verified-quotes').textContent = data.verified || 0;
-                document.getElementById('sources-count').textContent = data.sources || 0;
+                if (isCapacitor || isMobile) {
+                    // Load from bundle for mobile
+                    const res = await fetch('quotes-bundle.json');
+                    const quotes = await res.json();
+                    const total = quotes.length;
+                    const verified = quotes.filter(q => q.verification_status === 'verified').length;
+                    const sources = new Set(quotes.map(q => q.source_name).filter(Boolean)).size;
+                    document.getElementById('total-quotes').textContent = total;
+                    document.getElementById('verified-quotes').textContent = verified;
+                    document.getElementById('sources-count').textContent = sources;
+                } else {
+                    const res = await fetch(`${API}/api/stats`);
+                    const data = await res.json();
+                    document.getElementById('total-quotes').textContent = data.total || 0;
+                    document.getElementById('verified-quotes').textContent = data.verified || 0;
+                    document.getElementById('sources-count').textContent = data.sources || 0;
+                }
             } catch (e) {
                 console.error('Stats error:', e);
             }
@@ -530,115 +576,89 @@
         }
 
         async function loadQuotes() {
-            // Build query from filters
             const search = document.getElementById('search').value;
             const platform = document.getElementById('platform-filter').value;
             const category = document.getElementById('category-filter').value;
             const favOnly = document.getElementById('favorites-only').checked;
 
-            const params = new URLSearchParams();
-            if (search) params.append('q', search);
-            if (platform) params.append('platform', platform);
-            if (category) params.append('category', category);
-            // Sorting
-            const sortSelect = document.getElementById('sort-select').value;
-            const parts = sortSelect.split('_');
-            if (parts.length === 2) {
-                params.append('sort', parts[0]);
-                params.append('order', parts[1]);
-            }
-            // Pagination: always fetch first page (offset 0) with limit
-            params.append('limit', pageSize);
-            params.append('offset', 0);
-
             try {
-                const res = await fetch(`${API}/api/quotes?${params}`);
-                const quotes = await res.json();
+                let quotes;
 
-                // Apply favorites filter client-side if active
+                // Use offline bundle for mobile/Capacitor, API for web
+                if (isCapacitor || isMobile) {
+                    // Load from bundled JSON
+                    const res = await fetch('quotes-bundle.json');
+                    quotes = await res.json();
+
+                    // Apply filters client-side
+                    if (search) {
+                        const searchLower = search.toLowerCase();
+                        quotes = quotes.filter(q =>
+                            (q.quote_text && q.quote_text.toLowerCase().includes(searchLower)) ||
+                            (q.context && q.context.toLowerCase().includes(searchLower))
+                        );
+                    }
+                    if (platform) {
+                        quotes = quotes.filter(q => q.platform === platform);
+                    }
+                    if (category) {
+                        quotes = quotes.filter(q => q.category === category);
+                    }
+
+                    // Sorting
+                    const sortSelect = document.getElementById('sort-select').value;
+                    const parts = sortSelect.split('_');
+                    if (parts.length === 2) {
+                        const [sort, order] = parts;
+                        quotes.sort((a, b) => {
+                            let valA, valB;
+                            if (sort === 'date') {
+                                valA = a.date_spoken || '';
+                                valB = b.date_spoken || '';
+                            } else if (sort === 'category') {
+                                valA = a.category || '';
+                                valB = b.category || '';
+                            } else if (sort === 'platform') {
+                                valA = a.platform || '';
+                                valB = b.platform || '';
+                            }
+                            if (order === 'asc') return valA < valB ? -1 : valA > valB ? 1 : 0;
+                            return valA < valB ? 1 : valA > valB ? -1 : 0;
+                        });
+                    }
+
+                    // Pagination
+                    const offset = 0;
+                    quotes = quotes.slice(offset, pageSize);
+                } else {
+                    // Use API for web version
+                    const params = new URLSearchParams();
+                    if (search) params.append('q', search);
+                    if (platform) params.append('platform', platform);
+                    if (category) params.append('category', category);
+                    const sortSelect = document.getElementById('sort-select').value;
+                    const parts = sortSelect.split('_');
+                    if (parts.length === 2) {
+                        params.append('sort', parts[0]);
+                        params.append('order', parts[1]);
+                    }
+                    params.append('limit', pageSize);
+                    params.append('offset', 0);
+
+                    const res = await fetch(`${API}/api/quotes?${params}`);
+                    quotes = await res.json();
+                }
+
                 const filtered = favOnly ? quotes.filter(q => getFavorites().includes(q.id)) : quotes;
-                displayQuotes(filtered, false);
-
-                // Update pagination state based on raw server response
-                nextOffset = quotes.length;
-                if (quotes.length >= pageSize) {
-                    createLoadMoreButton();
-                    showLoadMore();
+                displayQuotes(filtered, true);
+                if (newQuotes.length >= pageSize) {
+                    nextOffset += pageSize;
                 } else {
                     hideLoadMore();
                 }
             } catch (e) {
-                document.getElementById('quotes-container').innerHTML = 
-                    '<div class="loading">Error loading quotes. Is the server running?</div>';
-                hideLoadMore();
+                console.error('Load more error:', e);
             }
-        }
-            } catch (e) {
-                document.getElementById('quotes-container').innerHTML = 
-                    '<div class="loading">Error loading quotes. Is the server running?</div>';
-            }
-        }
-
-        function displayQuotes(quotes, append = false) {
-            const container = document.getElementById('quotes-container');
-            const favs = getFavorites();
-
-            if (!quotes.length) {
-                if (!append) container.innerHTML = '<div class="loading">No quotes found.</div>';
-                return;
-            }
-
-            const html = quotes.map(q => {
-                const isFav = favs.includes(q.id);
-                const heartFill = isFav ? 'filled' : '';
-                const dateStr = q.date_spoken || 'Unknown';
-                return `
-                <div class="quote-card timeline-item" onclick="showQuote(${q.id})">
-                    <div class="timeline-date">${dateStr}</div>
-                    <svg class="favorite-heart ${heartFill}" data-id="${q.id}" onclick="event.stopPropagation(); toggleFavorite(${q.id})" viewBox="0 0 24 24">
-                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                    </svg>
-                    <div class="quote-text">"${escapeHtml(q.quote_text)}"</div>
-                    <div class="quote-meta">
-                        <span>${dateStr}</span>
-                        <span>${q.platform || 'Unknown'}</span>
-                        <span class="badge ${q.verification_status === 'verified' ? 'badge-verified' : 'badge-pending'}">
-                            ${q.verification_status || 'pending'}
-                        </span>
-                        ${q.category ? `<span class="badge badge-category">${q.category}</span>` : ''}
-                    </div>
-                </div>
-            `).join('');
-
-            if (append) {
-                container.innerHTML += html;
-            } else {
-                container.innerHTML = html;
-            }
-        }
-
-
-        function createLoadMoreButton() {
-            const pagination = document.getElementById('pagination');
-            if (!pagination.querySelector('button')) {
-                const btn = document.createElement('button');
-                btn.id = 'load-more';
-                btn.textContent = 'Load More';
-                btn.style = 'padding: 0.75rem 1.5rem; background: var(--primary); color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;';
-                btn.onclick = loadNextPage;
-                pagination.appendChild(btn);
-                hideLoadMore(); // initially hidden
-            }
-        }
-
-        function showLoadMore() {
-            const btn = document.getElementById('load-more');
-            if (btn) btn.style.display = 'inline-block';
-        }
-
-        function hideLoadMore() {
-            const btn = document.getElementById('load-more');
-            if (btn) btn.style.display = 'none';
         }
 
         async function loadNextPage() {
@@ -647,26 +667,60 @@
             const category = document.getElementById('category-filter').value;
             const favOnly = document.getElementById('favorites-only').checked;
 
-            const params = new URLSearchParams();
-            if (search) params.append('q', search);
-            if (platform) params.append('platform', platform);
-            if (category) params.append('category', category);
-            // Sorting
-            const sortSelect = document.getElementById('sort-select').value;
-            const parts = sortSelect.split('_');
-            if (parts.length === 2) {
-                params.append('sort', parts[0]);
-                params.append('order', parts[1]);
-            }
-            params.append('limit', pageSize);
-            params.append('offset', nextOffset);
-
             try {
-                const res = await fetch(`${API}/api/quotes?${params}`);
-                const newQuotes = await res.json();
-                const filtered = favOnly ? newQuotes.filter(q => getFavorites().includes(q.id)) : newQuotes;
+                let quotes;
+
+                if (isCapacitor || isMobile) {
+                    const res = await fetch('quotes-bundle.json');
+                    quotes = await res.json();
+
+                    // Apply all filters and sorting
+                    if (search) {
+                        const searchLower = search.toLowerCase();
+                        quotes = quotes.filter(q =>
+                            (q.quote_text && q.quote_text.toLowerCase().includes(searchLower)) ||
+                            (q.context && q.context.toLowerCase().includes(searchLower))
+                        );
+                    }
+                    if (platform) quotes = quotes.filter(q => q.platform === platform);
+                    if (category) quotes = quotes.filter(q => q.category === category);
+
+                    const sortSelect = document.getElementById('sort-select').value;
+                    const parts = sortSelect.split('_');
+                    if (parts.length === 2) {
+                        const [sort, order] = parts;
+                        quotes.sort((a, b) => {
+                            let valA, valB;
+                            if (sort === 'date') { valA = a.date_spoken || ''; valB = b.date_spoken || ''; }
+                            else if (sort === 'category') { valA = a.category || ''; valB = b.category || ''; }
+                            else if (sort === 'platform') { valA = a.platform || ''; valB = b.platform || ''; }
+                            return order === 'asc' ? (valA < valB ? -1 : valA > valB ? 1 : 0) : (valA < valB ? 1 : valA > valB ? -1 : 0);
+                        });
+                    }
+
+                    quotes = quotes.slice(nextOffset, nextOffset + pageSize);
+                } else {
+                    const params = new URLSearchParams();
+                    if (search) params.append('q', search);
+                    if (platform) params.append('platform', platform);
+                    if (category) params.append('category', category);
+                    const sortSelect = document.getElementById('sort-select').value;
+                    const parts = sortSelect.split('_');
+                    if (parts.length === 2) {
+                        params.append('sort', parts[0]);
+                        params.append('order', parts[1]);
+                    }
+                    params.append('limit', pageSize);
+                    params.append('offset', nextOffset);
+
+                    const res = await fetch(`${API}/api/quotes?${params}`);
+                    quotes = await res.json();
+                }
+
+                const filtered = favOnly ? quotes.filter(q => getFavorites().includes(q.id)) : quotes;
                 displayQuotes(filtered, true);
-                if (newQuotes.length >= pageSize) {
+
+                if (quotes.length >= pageSize) {
                     nextOffset += pageSize;
                 } else {
                     hideLoadMore();
@@ -727,6 +781,14 @@
                 ${q.source_url && (!q.sources || !q.sources.length) ? `
                 <a href="${q.source_url}" target="_blank" class="source-link">View Source</a>
                 ` : ''}
+                <div class="share-buttons">
+                    <button class="share-btn" onclick="event.stopPropagation(); shareQuote(${q.id})">
+                        <span>📤</span> Share
+                    </button>
+                    <button class="share-btn" onclick="event.stopPropagation(); copyQuote(${q.id})">
+                        <span>📋</span> Copy
+                    </button>
+                </div>
             `;
             document.getElementById('quote-modal').style.display = 'block';
         }
@@ -787,6 +849,83 @@
             document.getElementById('view-timeline-btn').classList.add('active');
             document.getElementById('view-grid-btn').classList.remove('active');
         });
+
+        async function shareQuote(id) {
+            try {
+                const res = await fetch(`${API}/api/quotes/${id}`);
+                const q = await res.json();
+                const shareText = `"${q.quote_text}" - Donald Trump (${q.date_spoken || 'Unknown date'})`;
+
+                if (navigator.share) {
+                    await navigator.share({
+                        title: 'ROTUS - Quote',
+                        text: shareText,
+                        url: window.location.href
+                    });
+                } else {
+                    // Fallback: copy to clipboard
+                    copyToClipboard(shareText);
+                    const btn = event.target.closest('.share-btn');
+                    if (btn) {
+                        btn.classList.add('copied');
+                        btn.innerHTML = '<span>✓</span> Copied!';
+                        setTimeout(() => {
+                            btn.classList.remove('copied');
+                            btn.innerHTML = '<span>📤</span> Share';
+                        }, 2000);
+                    }
+                }
+            } catch (e) {
+                console.error('Share error:', e);
+            }
+        }
+
+        async function copyQuote(id) {
+            try {
+                const res = await fetch(`${API}/api/quotes/${id}`);
+                const q = await res.json();
+                const copyText = `"${q.quote_text}" - Donald Trump (${q.date_spoken || 'Unknown'})\n\nSource: ${q.source_url || (q.sources && q.sources[0]?.url) || 'N/A'}`;
+                copyToClipboard(copyText);
+
+                const btn = event.target.closest('.share-btn');
+                if (btn) {
+                    btn.classList.add('copied');
+                    btn.innerHTML = '<span>✓</span> Copied!';
+                    setTimeout(() => {
+                        btn.classList.remove('copied');
+                        btn.innerHTML = '<span>📋</span> Copy';
+                    }, 2000);
+                }
+            } catch (e) {
+                console.error('Copy error:', e);
+            }
+        }
+
+        function copyToClipboard(text) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).catch(err => {
+                    console.error('Clipboard write failed:', err);
+                    fallbackCopy(text);
+                });
+            } else {
+                fallbackCopy(text);
+            }
+        }
+
+        function fallbackCopy(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+            } catch (err) {
+                console.error('Fallback copy failed:', err);
+            }
+            document.body.removeChild(textarea);
+        }
 
         // Load on page load
         loadStats();

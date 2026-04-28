@@ -19,7 +19,7 @@ class PolitiFactCollector:
 
     LIST_URL = "https://www.politifact.com/factchecks/list/?speaker=donald-trump"
 
-    def __init__(self, max_statements: int = 20):
+    def __init__(self, max_statements: int = 100):
         self.max_statements = max_statements
         self.session = requests.Session()
         self.session.headers.update({

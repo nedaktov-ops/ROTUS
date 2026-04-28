@@ -8,6 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "test": "jest --testTimeout=10000",
+    "test:watch": "jest --watch",
     "cap:add:ios": "capacitor add ios",
     "cap:add:android": "capacitor add android",
     "cap:sync": "capacitor sync",
@@ -32,6 +34,7 @@
     "compression": "^1.8.1",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "helmet": "^8.1.0",
     "morgan": "^1.10.1"
   },
   "devDependencies": {
@@ -39,6 +42,9 @@
     "@capacitor/cli": "^6.0.0",
     "@capacitor/core": "^6.0.0",
     "@capacitor/ios": "^6.0.0",
+    "jest": "^30.3.0",
+    "node-fetch": "^3.3.2",
+    "supertest": "^7.2.2",
     "vite": "^5.4.0"
   },
   "directories": {

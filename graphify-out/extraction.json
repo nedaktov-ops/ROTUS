@@ -71,6 +71,29 @@
       "created": "2026-04-27"
     },
     {
+      "id": "quotes_quote_060_general",
+      "label": "\"\u201cMore Americans are working today than at any time in the history of our country.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-060-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 60,
+      "date": "2026-03-27",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 27, 2026 in a speech to a Saudi investment conference:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/31/donald-trump/more-americans-working-today-employment/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_020_unexpected",
       "label": "\"I have a natural instinct for science.\"",
       "file_type": "document",
@@ -91,6 +114,28 @@
         "unexpected",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_055_general",
+      "label": "\"Trump, March 27: Very importantly, we saved 2 million American farms from extinction by virtually ending the unfair estate tax. We\u2019ve ended the estate tax, or as they call it, the death tax, and you can now keep your family farms in the family. \u2026 No, it was a big thing. I would see farmers and they pass away \u2026 and the children would get hit with this massive tax bill for the value of the farm. Sometimes the farm is very valuable, but the cash isn\u2019t so readily available. And they go out to a bank and they\u2019d borrow money and they\u2019d borrow and borrow and borrow to pay the tax. They\u2019d be working for 20 years to pay it off. If they had a bad season, they\u2019d lose their farm. \u2026 And you\u2019d have, actually, many, many suicides over it. They would actually commit suicide because they couldn\u2019t stand the concept of losing their family farm.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-055-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 55,
+      "date": "2026-04-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "Trump Fumbles the Facts with Farmers",
+      "source_url": "https://www.factcheck.org/2026/04/trump-fumbles-the-facts-with-farmers/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "factcheck"
       ]
     },
     {
@@ -140,6 +185,29 @@
       ]
     },
     {
+      "id": "quotes_quote_070_general",
+      "label": "\"Pope Leo XIV \u201cthinks it\u2019s OK for Iran to have a nuclear weapon.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-070-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 70,
+      "date": "2026-04-12",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on April 12, 2026 in a Truth Social post:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/13/donald-trump/Pope-Leo-nuclear-weapon-Iran-Trump/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_019_lie",
       "label": "\"The Continental Army suffered a bitter winter of Valley Forge, found glory in the Cold War, and emerged victorious in the hot wars and in the Cold War.\"",
       "file_type": "document",
@@ -160,6 +228,52 @@
         "lie",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_076_general",
+      "label": "\"On the US seeking regime change\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-076-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 76,
+      "date": "2026-02-28",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on February 28, 2026 in a video:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/03/donald-trump/Iran-regime-change-2016-Hillary-Clinton-Venezuela/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_086_general",
+      "label": "\"Iran \u201calso has some Tomahawks.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-086-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 86,
+      "date": "2026-03-09",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 9, 2026 in a press conference:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/10/donald-trump/trump-tomahawk-missile-iran-school/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -255,6 +369,28 @@
       ]
     },
     {
+      "id": "quotes_quote_067_general",
+      "label": "\"Trump, March 27: Very importantly, we saved 2 million American farms from extinction by virtually ending the unfair estate tax. We\u2019ve ended the estate tax, or as they call it, the death tax, and you can now keep your family farms in the family. \u2026 No, it was a big thing. I would see farmers and they pass away \u2026 and the children would get hit with this massive tax bill for the value of the farm. Sometimes the farm is very valuable, but the cash isn\u2019t so readily available. And they go out to a bank and they\u2019d borrow money and they\u2019d borrow and borrow and borrow to pay the tax. They\u2019d be working for 20 years to pay it off. If they had a bad season, they\u2019d lose their farm. \u2026 And you\u2019d have, actually, many, many suicides over it. They would actually commit suicide because they couldn\u2019t stand the concept of losing their family farm.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-067-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 67,
+      "date": "2026-04-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "Trump Fumbles the Facts with Farmers",
+      "source_url": "https://www.factcheck.org/2026/04/trump-fumbles-the-facts-with-farmers/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "factcheck"
+      ]
+    },
+    {
       "id": "quotes_quote_001_funny",
       "label": "\"I have the best words.\"",
       "file_type": "document",
@@ -298,6 +434,29 @@
         "unexpected",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_075_general",
+      "label": "\"The 2015 Iran nuclear agreement \u201cgave (Iran) the right to have top-of-the-line nuclear weapons.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-075-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 75,
+      "date": "2026-03-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 3, 2026 in remarks at the White House:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/05/donald-trump/iran-nuclear-agreement-legitimate-right-weapons/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -462,6 +621,74 @@
       ]
     },
     {
+      "id": "quotes_quote_079_general",
+      "label": "\"Trump, March 27: Very importantly, we saved 2 million American farms from extinction by virtually ending the unfair estate tax. We\u2019ve ended the estate tax, or as they call it, the death tax, and you can now keep your family farms in the family. \u2026 No, it was a big thing. I would see farmers and they pass away \u2026 and the children would get hit with this massive tax bill for the value of the farm. Sometimes the farm is very valuable, but the cash isn\u2019t so readily available. And they go out to a bank and they\u2019d borrow money and they\u2019d borrow and borrow and borrow to pay the tax. They\u2019d be working for 20 years to pay it off. If they had a bad season, they\u2019d lose their farm. \u2026 And you\u2019d have, actually, many, many suicides over it. They would actually commit suicide because they couldn\u2019t stand the concept of losing their family farm.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-079-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 79,
+      "date": "2026-04-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "Trump Fumbles the Facts with Farmers",
+      "source_url": "https://www.factcheck.org/2026/04/trump-fumbles-the-facts-with-farmers/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "factcheck"
+      ]
+    },
+    {
+      "id": "quotes_quote_062_general",
+      "label": "\"Iran \u201calso has some Tomahawks.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-062-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 62,
+      "date": "2026-03-09",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 9, 2026 in a press conference:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/10/donald-trump/trump-tomahawk-missile-iran-school/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_090_general",
+      "label": "\"After U.S. vessel strikes in the Caribbean Sea and Pacific Ocean, \u201cdrugs entering our country by sea are down 97%.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-090-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 90,
+      "date": "2026-01-29",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on January 29, 2026 in a White House event:",
+      "source_url": "https://www.politifact.com/factchecks/2026/feb/23/donald-trump/drug-water-down-97-percent-cocaine-seizures-sea/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_038_lie",
       "label": "\"The Continental Army suffered a bitter winter at Valley Forge, found glory in the Cold War, and emerged victorious in the hot wars and in the Cold War.\"",
       "file_type": "document",
@@ -485,6 +712,29 @@
       ]
     },
     {
+      "id": "quotes_quote_073_general",
+      "label": "\"\"Mail-in voting means mail-in cheating.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-073-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 73,
+      "date": "2026-03-23",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 23, 2026 in remarks at a Memphis event:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/25/donald-trump/trump-voted-by-mail-in-florida-the-same-month-he-f/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_030_ridiculous",
       "label": "\"We have people in the basement of the White House - they're like robots.\"",
       "file_type": "document",
@@ -505,6 +755,75 @@
         "ridiculous",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_074_general",
+      "label": "\"Iran \u201calso has some Tomahawks.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-074-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 74,
+      "date": "2026-03-09",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 9, 2026 in a press conference:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/10/donald-trump/trump-tomahawk-missile-iran-school/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_063_general",
+      "label": "\"The 2015 Iran nuclear agreement \u201cgave (Iran) the right to have top-of-the-line nuclear weapons.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-063-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 63,
+      "date": "2026-03-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 3, 2026 in remarks at the White House:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/05/donald-trump/iran-nuclear-agreement-legitimate-right-weapons/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_061_general",
+      "label": "\"\"Mail-in voting means mail-in cheating.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-061-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 61,
+      "date": "2026-03-23",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 23, 2026 in remarks at a Memphis event:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/25/donald-trump/trump-voted-by-mail-in-florida-the-same-month-he-f/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -576,6 +895,29 @@
       ]
     },
     {
+      "id": "quotes_quote_064_general",
+      "label": "\"On the US seeking regime change\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-064-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 64,
+      "date": "2026-02-28",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on February 28, 2026 in a video:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/03/donald-trump/Iran-regime-change-2016-Hillary-Clinton-Venezuela/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_026_outrageous",
       "label": "\"We have all the cards. They don't have the cards.\"",
       "file_type": "document",
@@ -596,6 +938,29 @@
         "outrageous",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_066_general",
+      "label": "\"After U.S. vessel strikes in the Caribbean Sea and Pacific Ocean, \u201cdrugs entering our country by sea are down 97%.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-066-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 66,
+      "date": "2026-01-29",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on January 29, 2026 in a White House event:",
+      "source_url": "https://www.politifact.com/factchecks/2026/feb/23/donald-trump/drug-water-down-97-percent-cocaine-seizures-sea/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -691,6 +1056,29 @@
       ]
     },
     {
+      "id": "quotes_quote_059_general",
+      "label": "\"\u201cWe've had regime change.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-059-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 59,
+      "date": "2026-03-29",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 29, 2026 in remarks aboard Air Force One:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/01/donald-trump/regime-change-iran-khamenei-hegseth/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_024_lie",
       "label": "\"The drought in California - if they would have clean the forests, it wouldn't have happened.\"",
       "file_type": "document",
@@ -737,6 +1125,28 @@
       ]
     },
     {
+      "id": "quotes_quote_056_general",
+      "label": "\"Trump: Beef was, it was an amazing thing, I was told by [Agriculture Secretary] Brooke [Rollins]. I said, I don\u2019t really believe it. They wanted to have less cattle in the country for environmental reasons. \u2026 These are sick people. No, they want less cattle for environmental reasons. It has something to do with gas permeating throughout the air. And we actually \u2014 and that\u2019s what happened. And these, the number of cattle was way down. I said, what happened? They were mandated. They were restricted for that reason. These people are crazy. But anyway, we \u2014 we got rid of that one too. That was an easy one.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-056-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 56,
+      "date": "2026-04-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "Trump Fumbles the Facts with Farmers",
+      "source_url": "https://www.factcheck.org/2026/04/trump-fumbles-the-facts-with-farmers/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "factcheck"
+      ]
+    },
+    {
       "id": "quotes_quote_045_funny",
       "label": "\"I have the best words. I have the best everything. I have the best people.\"",
       "file_type": "document",
@@ -757,6 +1167,29 @@
         "funny",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_088_general",
+      "label": "\"On the US seeking regime change\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-088-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 88,
+      "date": "2026-02-28",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on February 28, 2026 in a video:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/03/donald-trump/Iran-regime-change-2016-Hillary-Clinton-Venezuela/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -852,6 +1285,29 @@
       ]
     },
     {
+      "id": "quotes_quote_083_general",
+      "label": "\"\u201cWe've had regime change.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-083-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 83,
+      "date": "2026-03-29",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 29, 2026 in remarks aboard Air Force One:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/01/donald-trump/regime-change-iran-khamenei-hegseth/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_036_lie",
       "label": "\"I've always been great with money. I've always made money. I've never lost money.\"",
       "file_type": "document",
@@ -872,6 +1328,29 @@
         "lie",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_078_general",
+      "label": "\"After U.S. vessel strikes in the Caribbean Sea and Pacific Ocean, \u201cdrugs entering our country by sea are down 97%.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-078-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 78,
+      "date": "2026-01-29",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on January 29, 2026 in a White House event:",
+      "source_url": "https://www.politifact.com/factchecks/2026/feb/23/donald-trump/drug-water-down-97-percent-cocaine-seizures-sea/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -967,6 +1446,52 @@
       ]
     },
     {
+      "id": "quotes_quote_057_general",
+      "label": "\"\u201cThom Tillis is no longer a senator.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-057-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 57,
+      "date": "2026-04-15",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on April 15, 2026 in an interview with Fox Business News:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/15/donald-trump/thom-tillis-no-longer-senator-federal-reserve/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_089_general",
+      "label": "\"U.S. men\u2019s hockey Olympian Brady Tkachuk said about the Canadian hockey team, \u201cThey booed our national anthem, so I had to come out and teach those maple syrup eating f----s a lesson.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-089-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 89,
+      "date": "2026-02-22",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on February 22, 2026 in a TikTok post:",
+      "source_url": "https://www.politifact.com/factchecks/2026/feb/27/donald-trump/Tkachuk-AI-USA-Hockey-Olympics-White-House/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_014_outrageous",
       "label": "\"I know more about courts than any human being on earth.\"",
       "file_type": "document",
@@ -987,6 +1512,29 @@
         "outrageous",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_069_general",
+      "label": "\"\u201cThom Tillis is no longer a senator.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-069-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 69,
+      "date": "2026-04-15",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on April 15, 2026 in an interview with Fox Business News:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/15/donald-trump/thom-tillis-no-longer-senator-federal-reserve/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -1036,6 +1584,29 @@
       ]
     },
     {
+      "id": "quotes_quote_085_general",
+      "label": "\"\"Mail-in voting means mail-in cheating.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-085-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 85,
+      "date": "2026-03-23",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 23, 2026 in remarks at a Memphis event:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/25/donald-trump/trump-voted-by-mail-in-florida-the-same-month-he-f/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_007_funny",
       "label": "\"I'm very highly educated. I went to the Wharton School of Business. I'm a smart person.\"",
       "file_type": "document",
@@ -1082,6 +1653,28 @@
       ]
     },
     {
+      "id": "quotes_quote_068_general",
+      "label": "\"Trump: Beef was, it was an amazing thing, I was told by [Agriculture Secretary] Brooke [Rollins]. I said, I don\u2019t really believe it. They wanted to have less cattle in the country for environmental reasons. \u2026 These are sick people. No, they want less cattle for environmental reasons. It has something to do with gas permeating throughout the air. And we actually \u2014 and that\u2019s what happened. And these, the number of cattle was way down. I said, what happened? They were mandated. They were restricted for that reason. These people are crazy. But anyway, we \u2014 we got rid of that one too. That was an easy one.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-068-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 68,
+      "date": "2026-04-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "Trump Fumbles the Facts with Farmers",
+      "source_url": "https://www.factcheck.org/2026/04/trump-fumbles-the-facts-with-farmers/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "factcheck"
+      ]
+    },
+    {
       "id": "quotes_quote_039_outrageous",
       "label": "\"I know more about construction than anybody. I build buildings. I know more about environmental impact than anybody.\"",
       "file_type": "document",
@@ -1125,6 +1718,121 @@
         "funny",
         "trump",
         "quote"
+      ]
+    },
+    {
+      "id": "quotes_quote_058_general",
+      "label": "\"Pope Leo XIV \u201cthinks it\u2019s OK for Iran to have a nuclear weapon.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-058-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 58,
+      "date": "2026-04-12",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on April 12, 2026 in a Truth Social post:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/13/donald-trump/Pope-Leo-nuclear-weapon-Iran-Trump/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_081_general",
+      "label": "\"\u201cThom Tillis is no longer a senator.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-081-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 81,
+      "date": "2026-04-15",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on April 15, 2026 in an interview with Fox Business News:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/15/donald-trump/thom-tillis-no-longer-senator-federal-reserve/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_082_general",
+      "label": "\"Pope Leo XIV \u201cthinks it\u2019s OK for Iran to have a nuclear weapon.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-082-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 82,
+      "date": "2026-04-12",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on April 12, 2026 in a Truth Social post:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/13/donald-trump/Pope-Leo-nuclear-weapon-Iran-Trump/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_077_general",
+      "label": "\"U.S. men\u2019s hockey Olympian Brady Tkachuk said about the Canadian hockey team, \u201cThey booed our national anthem, so I had to come out and teach those maple syrup eating f----s a lesson.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-077-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 77,
+      "date": "2026-02-22",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on February 22, 2026 in a TikTok post:",
+      "source_url": "https://www.politifact.com/factchecks/2026/feb/27/donald-trump/Tkachuk-AI-USA-Hockey-Olympics-White-House/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_072_general",
+      "label": "\"\u201cMore Americans are working today than at any time in the history of our country.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-072-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 72,
+      "date": "2026-03-27",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 27, 2026 in a speech to a Saudi investment conference:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/31/donald-trump/more-americans-working-today-employment/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
       ]
     },
     {
@@ -1197,6 +1905,51 @@
       ]
     },
     {
+      "id": "quotes_quote_087_general",
+      "label": "\"The 2015 Iran nuclear agreement \u201cgave (Iran) the right to have top-of-the-line nuclear weapons.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-087-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 87,
+      "date": "2026-03-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 3, 2026 in remarks at the White House:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/05/donald-trump/iran-nuclear-agreement-legitimate-right-weapons/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
+      "id": "quotes_quote_080_general",
+      "label": "\"Trump: Beef was, it was an amazing thing, I was told by [Agriculture Secretary] Brooke [Rollins]. I said, I don\u2019t really believe it. They wanted to have less cattle in the country for environmental reasons. \u2026 These are sick people. No, they want less cattle for environmental reasons. It has something to do with gas permeating throughout the air. And we actually \u2014 and that\u2019s what happened. And these, the number of cattle was way down. I said, what happened? They were mandated. They were restricted for that reason. These people are crazy. But anyway, we \u2014 we got rid of that one too. That was an easy one.\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-080-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 80,
+      "date": "2026-04-03",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "Trump Fumbles the Facts with Farmers",
+      "source_url": "https://www.factcheck.org/2026/04/trump-fumbles-the-facts-with-farmers/",
+      "source_name": "FactCheck.org",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "factcheck"
+      ]
+    },
+    {
       "id": "quotes_quote_032_lie",
       "label": "\"The election was rigged. I won easily.\"",
       "file_type": "document",
@@ -1266,6 +2019,29 @@
       ]
     },
     {
+      "id": "quotes_quote_071_general",
+      "label": "\"\u201cWe've had regime change.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-071-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 71,
+      "date": "2026-03-29",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 29, 2026 in remarks aboard Air Force One:",
+      "source_url": "https://www.politifact.com/factchecks/2026/apr/01/donald-trump/regime-change-iran-khamenei-hegseth/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
+    },
+    {
       "id": "quotes_quote_003_ridiculous",
       "label": "\"Religion is such a great thing. There's something to be good about.\"",
       "file_type": "document",
@@ -1312,114 +2088,181 @@
       ]
     },
     {
-      "id": "tag_dashboard",
-      "label": "dashboard",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
+      "id": "quotes_quote_065_general",
+      "label": "\"U.S. men\u2019s hockey Olympian Brady Tkachuk said about the Canadian hockey team, \u201cThey booed our national anthem, so I had to come out and teach those maple syrup eating f----s a lesson.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-065-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 65,
+      "date": "2026-02-22",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on February 22, 2026 in a TikTok post:",
+      "source_url": "https://www.politifact.com/factchecks/2026/feb/27/donald-trump/Tkachuk-AI-USA-Hockey-Olympics-White-House/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
     },
     {
-      "id": "tag_moc",
-      "label": "MOC",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
+      "id": "quotes_quote_084_general",
+      "label": "\"\u201cMore Americans are working today than at any time in the history of our country.\u201d\"",
+      "file_type": "document",
+      "source_file": "Quotes/Quote-084-general.md",
+      "vault_folder": "Quotes",
+      "quote_id": 84,
+      "date": "2026-03-27",
+      "time": "",
+      "location": "",
+      "platform": "",
+      "context": "stated on March 27, 2026 in a speech to a Saudi investment conference:",
+      "source_url": "https://www.politifact.com/factchecks/2026/mar/31/donald-trump/more-americans-working-today-employment/",
+      "source_name": "PolitiFact",
+      "verification_status": "verified",
+      "confidence_score": 0,
+      "category": "",
+      "tags": [
+        "trump",
+        "politifact",
+        "is-medium"
+      ]
     },
     {
-      "id": "tag_quotes",
-      "label": "quotes",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
-    },
-    {
-      "id": "tag_outrageous",
-      "label": "outrageous",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
-    },
-    {
-      "id": "tag_person",
-      "label": "person",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
-    },
-    {
-      "id": "tag_lie",
-      "label": "lie",
-      "file_type": "tag",
+      "id": "tag_test",
+      "label": "test",
+      "file_type": "document",
       "source_file": "",
       "vault_folder": "Tags"
     },
     {
       "id": "tag_rotus",
       "label": "ROTUS",
-      "file_type": "tag",
+      "file_type": "document",
       "source_file": "",
       "vault_folder": "Tags"
     },
     {
-      "id": "tag_unexpected",
-      "label": "unexpected",
-      "file_type": "tag",
+      "id": "tag_outrageous",
+      "label": "outrageous",
+      "file_type": "document",
       "source_file": "",
       "vault_folder": "Tags"
     },
     {
-      "id": "tag_test",
-      "label": "test",
-      "file_type": "tag",
+      "id": "tag_factcheck",
+      "label": "factcheck",
+      "file_type": "document",
       "source_file": "",
       "vault_folder": "Tags"
     },
     {
-      "id": "tag_trump",
-      "label": "trump",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
-    },
-    {
-      "id": "tag_ridiculous",
-      "label": "ridiculous",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
-    },
-    {
-      "id": "tag_demo",
-      "label": "demo",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
-    },
-    {
-      "id": "tag_quote",
-      "label": "quote",
-      "file_type": "tag",
-      "source_file": "",
-      "vault_folder": "Tags"
-    },
-    {
-      "id": "tag_topic",
-      "label": "topic",
-      "file_type": "tag",
+      "id": "tag_person",
+      "label": "person",
+      "file_type": "document",
       "source_file": "",
       "vault_folder": "Tags"
     },
     {
       "id": "tag_funny",
       "label": "funny",
-      "file_type": "tag",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_dashboard",
+      "label": "dashboard",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_quote",
+      "label": "quote",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_demo",
+      "label": "demo",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_is_medium",
+      "label": "is-medium",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_quotes",
+      "label": "quotes",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_trump",
+      "label": "trump",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_lie",
+      "label": "lie",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_moc",
+      "label": "MOC",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_politifact",
+      "label": "politifact",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_ridiculous",
+      "label": "ridiculous",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_topic",
+      "label": "topic",
+      "file_type": "document",
       "source_file": "",
       "vault_folder": "Tags"
     },
     {
       "id": "tag_potus",
       "label": "potus",
-      "file_type": "tag",
+      "file_type": "document",
+      "source_file": "",
+      "vault_folder": "Tags"
+    },
+    {
+      "id": "tag_unexpected",
+      "label": "unexpected",
+      "file_type": "document",
       "source_file": "",
       "vault_folder": "Tags"
     }
@@ -1442,12 +2285,28 @@
       "source_file": "Topics/Outrageous-Quotes.md"
     },
     {
+      "source": "quotes_quote_060_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-060-general.md"
+    },
+    {
       "source": "quotes_quote_020_unexpected",
       "target": "people_donald_trump",
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-020-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_055_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-055-general.md"
     },
     {
       "source": "quotes_quote_037_ridiculous",
@@ -1466,12 +2325,36 @@
       "source_file": "Quotes/Quote-023-funny.md"
     },
     {
+      "source": "quotes_quote_070_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-070-general.md"
+    },
+    {
       "source": "quotes_quote_019_lie",
       "target": "people_donald_trump",
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-019-lie.md"
+    },
+    {
+      "source": "quotes_quote_076_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-076-general.md"
+    },
+    {
+      "source": "quotes_quote_086_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-086-general.md"
     },
     {
       "source": "quotes_quote_050_outrageous",
@@ -1506,6 +2389,14 @@
       "source_file": "Quotes/Quote-027-funny.md"
     },
     {
+      "source": "quotes_quote_067_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-067-general.md"
+    },
+    {
       "source": "quotes_quote_001_funny",
       "target": "people_donald_trump",
       "relation": "links_to",
@@ -1520,6 +2411,14 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-048-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_075_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-075-general.md"
     },
     {
       "source": "quotes_quote_052_ridiculous",
@@ -1578,6 +2477,30 @@
       "source_file": "Quotes/Quote-021-ridiculous.md"
     },
     {
+      "source": "quotes_quote_079_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-079-general.md"
+    },
+    {
+      "source": "quotes_quote_062_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-062-general.md"
+    },
+    {
+      "source": "quotes_quote_090_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-090-general.md"
+    },
+    {
       "source": "quotes_quote_038_lie",
       "target": "people_donald_trump",
       "relation": "links_to",
@@ -1586,12 +2509,44 @@
       "source_file": "Quotes/Quote-038-lie.md"
     },
     {
+      "source": "quotes_quote_073_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-073-general.md"
+    },
+    {
       "source": "quotes_quote_030_ridiculous",
       "target": "people_donald_trump",
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-030-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_074_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-074-general.md"
+    },
+    {
+      "source": "quotes_quote_063_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-063-general.md"
+    },
+    {
+      "source": "quotes_quote_061_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-061-general.md"
     },
     {
       "source": "quotes_quote_012_unexpected",
@@ -1618,12 +2573,28 @@
       "source_file": "Quotes/Quote-054-funny.md"
     },
     {
+      "source": "quotes_quote_064_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-064-general.md"
+    },
+    {
       "source": "quotes_quote_026_outrageous",
       "target": "people_donald_trump",
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-026-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_066_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-066-general.md"
     },
     {
       "source": "quotes_quote_008_outrageous",
@@ -1658,6 +2629,14 @@
       "source_file": "Quotes/Quote-047-outrageous.md"
     },
     {
+      "source": "quotes_quote_059_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-059-general.md"
+    },
+    {
       "source": "quotes_quote_024_lie",
       "target": "people_donald_trump",
       "relation": "links_to",
@@ -1674,12 +2653,28 @@
       "source_file": "Quotes/Quote-040-funny.md"
     },
     {
+      "source": "quotes_quote_056_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-056-general.md"
+    },
+    {
       "source": "quotes_quote_045_funny",
       "target": "people_donald_trump",
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-045-funny.md"
+    },
+    {
+      "source": "quotes_quote_088_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-088-general.md"
     },
     {
       "source": "quotes_quote_028_lie",
@@ -1714,12 +2709,28 @@
       "source_file": "Quotes/Quote-018-unexpected.md"
     },
     {
+      "source": "quotes_quote_083_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-083-general.md"
+    },
+    {
       "source": "quotes_quote_036_lie",
       "target": "people_donald_trump",
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-036-lie.md"
+    },
+    {
+      "source": "quotes_quote_078_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-078-general.md"
     },
     {
       "source": "quotes_quote_011_lie",
@@ -1754,12 +2765,36 @@
       "source_file": "Quotes/Quote-009-lie.md"
     },
     {
+      "source": "quotes_quote_057_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-057-general.md"
+    },
+    {
+      "source": "quotes_quote_089_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-089-general.md"
+    },
+    {
       "source": "quotes_quote_014_outrageous",
       "target": "people_donald_trump",
       "relation": "links_to",
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-014-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_069_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-069-general.md"
     },
     {
       "source": "quotes_quote_031_outrageous",
@@ -1778,6 +2813,14 @@
       "source_file": "Quotes/Quote-013-funny.md"
     },
     {
+      "source": "quotes_quote_085_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-085-general.md"
+    },
+    {
       "source": "quotes_quote_007_funny",
       "target": "people_donald_trump",
       "relation": "links_to",
@@ -1794,6 +2837,14 @@
       "source_file": "Quotes/Quote-017-outrageous.md"
     },
     {
+      "source": "quotes_quote_068_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-068-general.md"
+    },
+    {
       "source": "quotes_quote_039_outrageous",
       "target": "people_donald_trump",
       "relation": "links_to",
@@ -1808,6 +2859,46 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-051-funny.md"
+    },
+    {
+      "source": "quotes_quote_058_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-058-general.md"
+    },
+    {
+      "source": "quotes_quote_081_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-081-general.md"
+    },
+    {
+      "source": "quotes_quote_082_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-082-general.md"
+    },
+    {
+      "source": "quotes_quote_077_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-077-general.md"
+    },
+    {
+      "source": "quotes_quote_072_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-072-general.md"
     },
     {
       "source": "quotes_quote_042_outrageous",
@@ -1834,6 +2925,22 @@
       "source_file": "Quotes/Quote-034-lie.md"
     },
     {
+      "source": "quotes_quote_087_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-087-general.md"
+    },
+    {
+      "source": "quotes_quote_080_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-080-general.md"
+    },
+    {
       "source": "quotes_quote_032_lie",
       "target": "people_donald_trump",
       "relation": "links_to",
@@ -1858,6 +2965,14 @@
       "source_file": "Quotes/Quote-010-ridiculous.md"
     },
     {
+      "source": "quotes_quote_071_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-071-general.md"
+    },
+    {
       "source": "quotes_quote_003_ridiculous",
       "target": "people_donald_trump",
       "relation": "links_to",
@@ -1872,6 +2987,22 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-005-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_065_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-065-general.md"
+    },
+    {
+      "source": "quotes_quote_084_general",
+      "target": "people_donald_trump",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-084-general.md"
     },
     {
       "source": "dashboards_rotus_dashboard",
@@ -1970,6 +3101,30 @@
       "source_file": "Topics/Outrageous-Quotes.md"
     },
     {
+      "source": "quotes_quote_060_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-060-general.md"
+    },
+    {
+      "source": "quotes_quote_060_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-060-general.md"
+    },
+    {
+      "source": "quotes_quote_060_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-060-general.md"
+    },
+    {
       "source": "quotes_quote_020_unexpected",
       "target": "tag_unexpected",
       "relation": "has_tag",
@@ -1994,6 +3149,22 @@
       "source_file": "Quotes/Quote-020-unexpected.md"
     },
     {
+      "source": "quotes_quote_055_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-055-general.md"
+    },
+    {
+      "source": "quotes_quote_055_general",
+      "target": "tag_factcheck",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-055-general.md"
+    },
+    {
       "source": "quotes_quote_037_ridiculous",
       "target": "tag_ridiculous",
       "relation": "has_tag",
@@ -2042,6 +3213,30 @@
       "source_file": "Quotes/Quote-023-funny.md"
     },
     {
+      "source": "quotes_quote_070_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-070-general.md"
+    },
+    {
+      "source": "quotes_quote_070_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-070-general.md"
+    },
+    {
+      "source": "quotes_quote_070_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-070-general.md"
+    },
+    {
       "source": "quotes_quote_019_lie",
       "target": "tag_lie",
       "relation": "has_tag",
@@ -2064,6 +3259,54 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-019-lie.md"
+    },
+    {
+      "source": "quotes_quote_076_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-076-general.md"
+    },
+    {
+      "source": "quotes_quote_076_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-076-general.md"
+    },
+    {
+      "source": "quotes_quote_076_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-076-general.md"
+    },
+    {
+      "source": "quotes_quote_086_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-086-general.md"
+    },
+    {
+      "source": "quotes_quote_086_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-086-general.md"
+    },
+    {
+      "source": "quotes_quote_086_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-086-general.md"
     },
     {
       "source": "quotes_quote_050_outrageous",
@@ -2160,6 +3403,22 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-027-funny.md"
+    },
+    {
+      "source": "quotes_quote_067_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-067-general.md"
+    },
+    {
+      "source": "quotes_quote_067_general",
+      "target": "tag_factcheck",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-067-general.md"
     },
     {
       "source": "quotes_quote_001_funny",
@@ -2210,6 +3469,30 @@
       "source_file": "Quotes/Quote-048-unexpected.md"
     },
     {
+      "source": "quotes_quote_075_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-075-general.md"
+    },
+    {
+      "source": "quotes_quote_075_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-075-general.md"
+    },
+    {
+      "source": "quotes_quote_075_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-075-general.md"
+    },
+    {
       "source": "quotes_quote_052_ridiculous",
       "target": "tag_ridiculous",
       "relation": "has_tag",
@@ -2378,6 +3661,70 @@
       "source_file": "Quotes/Quote-021-ridiculous.md"
     },
     {
+      "source": "quotes_quote_079_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-079-general.md"
+    },
+    {
+      "source": "quotes_quote_079_general",
+      "target": "tag_factcheck",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-079-general.md"
+    },
+    {
+      "source": "quotes_quote_062_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-062-general.md"
+    },
+    {
+      "source": "quotes_quote_062_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-062-general.md"
+    },
+    {
+      "source": "quotes_quote_062_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-062-general.md"
+    },
+    {
+      "source": "quotes_quote_090_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-090-general.md"
+    },
+    {
+      "source": "quotes_quote_090_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-090-general.md"
+    },
+    {
+      "source": "quotes_quote_090_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-090-general.md"
+    },
+    {
       "source": "quotes_quote_038_lie",
       "target": "tag_lie",
       "relation": "has_tag",
@@ -2402,6 +3749,30 @@
       "source_file": "Quotes/Quote-038-lie.md"
     },
     {
+      "source": "quotes_quote_073_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-073-general.md"
+    },
+    {
+      "source": "quotes_quote_073_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-073-general.md"
+    },
+    {
+      "source": "quotes_quote_073_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-073-general.md"
+    },
+    {
       "source": "quotes_quote_030_ridiculous",
       "target": "tag_ridiculous",
       "relation": "has_tag",
@@ -2424,6 +3795,78 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-030-ridiculous.md"
+    },
+    {
+      "source": "quotes_quote_074_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-074-general.md"
+    },
+    {
+      "source": "quotes_quote_074_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-074-general.md"
+    },
+    {
+      "source": "quotes_quote_074_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-074-general.md"
+    },
+    {
+      "source": "quotes_quote_063_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-063-general.md"
+    },
+    {
+      "source": "quotes_quote_063_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-063-general.md"
+    },
+    {
+      "source": "quotes_quote_063_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-063-general.md"
+    },
+    {
+      "source": "quotes_quote_061_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-061-general.md"
+    },
+    {
+      "source": "quotes_quote_061_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-061-general.md"
+    },
+    {
+      "source": "quotes_quote_061_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-061-general.md"
     },
     {
       "source": "quotes_quote_012_unexpected",
@@ -2490,6 +3933,30 @@
       "source_file": "Quotes/Quote-054-funny.md"
     },
     {
+      "source": "quotes_quote_064_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-064-general.md"
+    },
+    {
+      "source": "quotes_quote_064_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-064-general.md"
+    },
+    {
+      "source": "quotes_quote_064_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-064-general.md"
+    },
+    {
       "source": "quotes_quote_026_outrageous",
       "target": "tag_outrageous",
       "relation": "has_tag",
@@ -2512,6 +3979,30 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-026-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_066_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-066-general.md"
+    },
+    {
+      "source": "quotes_quote_066_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-066-general.md"
+    },
+    {
+      "source": "quotes_quote_066_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-066-general.md"
     },
     {
       "source": "quotes_quote_008_outrageous",
@@ -2610,6 +4101,30 @@
       "source_file": "Quotes/Quote-047-outrageous.md"
     },
     {
+      "source": "quotes_quote_059_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-059-general.md"
+    },
+    {
+      "source": "quotes_quote_059_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-059-general.md"
+    },
+    {
+      "source": "quotes_quote_059_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-059-general.md"
+    },
+    {
       "source": "quotes_quote_024_lie",
       "target": "tag_lie",
       "relation": "has_tag",
@@ -2658,6 +4173,22 @@
       "source_file": "Quotes/Quote-040-funny.md"
     },
     {
+      "source": "quotes_quote_056_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-056-general.md"
+    },
+    {
+      "source": "quotes_quote_056_general",
+      "target": "tag_factcheck",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-056-general.md"
+    },
+    {
       "source": "quotes_quote_045_funny",
       "target": "tag_funny",
       "relation": "has_tag",
@@ -2680,6 +4211,30 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-045-funny.md"
+    },
+    {
+      "source": "quotes_quote_088_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-088-general.md"
+    },
+    {
+      "source": "quotes_quote_088_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-088-general.md"
+    },
+    {
+      "source": "quotes_quote_088_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-088-general.md"
     },
     {
       "source": "quotes_quote_028_lie",
@@ -2778,6 +4333,30 @@
       "source_file": "Quotes/Quote-018-unexpected.md"
     },
     {
+      "source": "quotes_quote_083_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-083-general.md"
+    },
+    {
+      "source": "quotes_quote_083_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-083-general.md"
+    },
+    {
+      "source": "quotes_quote_083_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-083-general.md"
+    },
+    {
       "source": "quotes_quote_036_lie",
       "target": "tag_lie",
       "relation": "has_tag",
@@ -2800,6 +4379,30 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-036-lie.md"
+    },
+    {
+      "source": "quotes_quote_078_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-078-general.md"
+    },
+    {
+      "source": "quotes_quote_078_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-078-general.md"
+    },
+    {
+      "source": "quotes_quote_078_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-078-general.md"
     },
     {
       "source": "quotes_quote_011_lie",
@@ -2898,6 +4501,54 @@
       "source_file": "Quotes/Quote-009-lie.md"
     },
     {
+      "source": "quotes_quote_057_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-057-general.md"
+    },
+    {
+      "source": "quotes_quote_057_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-057-general.md"
+    },
+    {
+      "source": "quotes_quote_057_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-057-general.md"
+    },
+    {
+      "source": "quotes_quote_089_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-089-general.md"
+    },
+    {
+      "source": "quotes_quote_089_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-089-general.md"
+    },
+    {
+      "source": "quotes_quote_089_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-089-general.md"
+    },
+    {
       "source": "quotes_quote_014_outrageous",
       "target": "tag_outrageous",
       "relation": "has_tag",
@@ -2920,6 +4571,30 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-014-outrageous.md"
+    },
+    {
+      "source": "quotes_quote_069_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-069-general.md"
+    },
+    {
+      "source": "quotes_quote_069_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-069-general.md"
+    },
+    {
+      "source": "quotes_quote_069_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-069-general.md"
     },
     {
       "source": "quotes_quote_031_outrageous",
@@ -2970,6 +4645,30 @@
       "source_file": "Quotes/Quote-013-funny.md"
     },
     {
+      "source": "quotes_quote_085_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-085-general.md"
+    },
+    {
+      "source": "quotes_quote_085_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-085-general.md"
+    },
+    {
+      "source": "quotes_quote_085_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-085-general.md"
+    },
+    {
       "source": "quotes_quote_007_funny",
       "target": "tag_funny",
       "relation": "has_tag",
@@ -3018,6 +4717,22 @@
       "source_file": "Quotes/Quote-017-outrageous.md"
     },
     {
+      "source": "quotes_quote_068_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-068-general.md"
+    },
+    {
+      "source": "quotes_quote_068_general",
+      "target": "tag_factcheck",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-068-general.md"
+    },
+    {
       "source": "quotes_quote_039_outrageous",
       "target": "tag_outrageous",
       "relation": "has_tag",
@@ -3064,6 +4779,126 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-051-funny.md"
+    },
+    {
+      "source": "quotes_quote_058_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-058-general.md"
+    },
+    {
+      "source": "quotes_quote_058_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-058-general.md"
+    },
+    {
+      "source": "quotes_quote_058_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-058-general.md"
+    },
+    {
+      "source": "quotes_quote_081_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-081-general.md"
+    },
+    {
+      "source": "quotes_quote_081_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-081-general.md"
+    },
+    {
+      "source": "quotes_quote_081_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-081-general.md"
+    },
+    {
+      "source": "quotes_quote_082_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-082-general.md"
+    },
+    {
+      "source": "quotes_quote_082_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-082-general.md"
+    },
+    {
+      "source": "quotes_quote_082_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-082-general.md"
+    },
+    {
+      "source": "quotes_quote_077_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-077-general.md"
+    },
+    {
+      "source": "quotes_quote_077_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-077-general.md"
+    },
+    {
+      "source": "quotes_quote_077_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-077-general.md"
+    },
+    {
+      "source": "quotes_quote_072_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-072-general.md"
+    },
+    {
+      "source": "quotes_quote_072_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-072-general.md"
+    },
+    {
+      "source": "quotes_quote_072_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-072-general.md"
     },
     {
       "source": "quotes_quote_042_outrageous",
@@ -3136,6 +4971,46 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-034-lie.md"
+    },
+    {
+      "source": "quotes_quote_087_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-087-general.md"
+    },
+    {
+      "source": "quotes_quote_087_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-087-general.md"
+    },
+    {
+      "source": "quotes_quote_087_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-087-general.md"
+    },
+    {
+      "source": "quotes_quote_080_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-080-general.md"
+    },
+    {
+      "source": "quotes_quote_080_general",
+      "target": "tag_factcheck",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-080-general.md"
     },
     {
       "source": "quotes_quote_032_lie",
@@ -3210,6 +5085,30 @@
       "source_file": "Quotes/Quote-010-ridiculous.md"
     },
     {
+      "source": "quotes_quote_071_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-071-general.md"
+    },
+    {
+      "source": "quotes_quote_071_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-071-general.md"
+    },
+    {
+      "source": "quotes_quote_071_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-071-general.md"
+    },
+    {
       "source": "quotes_quote_003_ridiculous",
       "target": "tag_ridiculous",
       "relation": "has_tag",
@@ -3256,6 +5155,54 @@
       "confidence": "EXTRACTED",
       "weight": 1.0,
       "source_file": "Quotes/Quote-005-unexpected.md"
+    },
+    {
+      "source": "quotes_quote_065_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-065-general.md"
+    },
+    {
+      "source": "quotes_quote_065_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-065-general.md"
+    },
+    {
+      "source": "quotes_quote_065_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-065-general.md"
+    },
+    {
+      "source": "quotes_quote_084_general",
+      "target": "tag_trump",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-084-general.md"
+    },
+    {
+      "source": "quotes_quote_084_general",
+      "target": "tag_politifact",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-084-general.md"
+    },
+    {
+      "source": "quotes_quote_084_general",
+      "target": "tag_is_medium",
+      "relation": "has_tag",
+      "confidence": "EXTRACTED",
+      "weight": 1.0,
+      "source_file": "Quotes/Quote-084-general.md"
     }
   ]
 }

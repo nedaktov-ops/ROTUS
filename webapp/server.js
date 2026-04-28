@@ -2,6 +2,7 @@
 
 const express = require('express');
 const cors = require('cors');
+const helmet = require('helmet');
 const path = require('path');
 const fs = require('fs');
 const compression = require('compression');
@@ -12,9 +13,26 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(cors());
+app.use(helmet({
+    contentSecurityPolicy: {
+        directives: {
+            defaultSrc: ["'self'"],
+            styleSrc: ["'self'", "'unsafe-inline'"],
+            scriptSrc: ["'self'", "'unsafe-inline'"],
+            imgSrc: ["'self'", "data:", "https:"],
+        },
+    },
+}));
+
+const corsOptions = {
+    origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : '*',
+    credentials: true
+};
+app.use(cors(corsOptions));
 app.use(compression());
-app.use(morgan('combined'));
+if (process.env.NODE_ENV !== 'production') {
+    app.use(morgan('combined'));
+}
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
@@ -231,6 +249,69 @@ app.get('/api/tags', (req, res) => {
     }
 });
 
+// Update a quote
+app.put('/api/quotes/:id', (req, res) => {
+    try {
+        const { id } = req.params;
+        const {
+            quote_text,
+            date_spoken,
+            platform,
+            context,
+            source_url,
+            source_name,
+            category,
+            verification_status
+        } = req.body;
+
+        const stmt = db.prepare(`
+            UPDATE quotes
+            SET quote_text = COALESCE(?, quote_text),
+                date_spoken = COALESCE(?, date_spoken),
+                platform = COALESCE(?, platform),
+                context = COALESCE(?, context),
+                source_url = COALESCE(?, source_url),
+                source_name = COALESCE(?, source_name),
+                category = COALESCE(?, category),
+                verification_status = COALESCE(?, verification_status),
+                updated_at = CURRENT_TIMESTAMP
+            WHERE id = ?
+        `);
+        const result = stmt.run(quote_text, date_spoken, platform, context, source_url, source_name, category, verification_status, id);
+
+        if (result.changes === 0) {
+            return res.status(404).json({ error: 'Quote not found' });
+        }
+
+        res.json({ success: true, message: 'Quote updated successfully' });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+// Delete a quote
+app.delete('/api/quotes/:id', (req, res) => {
+    try {
+        const { id } = req.params;
+
+        // Delete related records first (sources, entities, tags)
+        db.prepare('DELETE FROM sources WHERE quote_id = ?').run(id);
+        db.prepare('DELETE FROM entities WHERE quote_id = ?').run(id);
+        db.prepare('DELETE FROM tags WHERE quote_id = ?').run(id);
+
+        // Delete the quote
+        const result = db.prepare('DELETE FROM quotes WHERE id = ?').run(id);
+
+        if (result.changes === 0) {
+            return res.status(404).json({ error: 'Quote not found' });
+        }
+
+        res.json({ success: true, message: 'Quote deleted successfully' });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
 // Serve knowledge graph visualization
 app.get('/graph', (req, res) => {
     const graphPath = path.join(__dirname, '../graphify-out/graph.html');
@@ -241,8 +322,24 @@ app.get('/graph', (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`ROTUS server running on http://localhost:${PORT}`);
+// 404 handler for API routes
+app.use('/api', (req, res) => {
+    res.status(404).json({ error: 'Endpoint not found' });
 });
 
-process.on('SIGINT', () => { db.close(); process.exit(0); });
+// Error handling middleware
+app.use((err, req, res, next) => {
+    console.error('Server error:', err);
+    res.status(500).json({ error: 'Internal server error' });
+});
+
+// Only start server if not in test mode
+if (process.env.NODE_ENV !== 'test') {
+    app.listen(PORT, () => {
+        console.log(`ROTUS server running on http://localhost:${PORT}`);
+    });
+
+    process.on('SIGINT', () => { db.close(); process.exit(0); });
+}
+
+module.exports = app;

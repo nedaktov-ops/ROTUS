@@ -19,7 +19,7 @@ class FactCheckCollector:
 
     RSS_URL = "https://www.factcheck.org/person/donald-trump/feed/"
 
-    def __init__(self, max_articles: int = 10):
+    def __init__(self, max_articles: int = 100):
         self.max_articles = max_articles
         self.session = requests.Session()
         self.session.headers.update({
@@ -64,7 +64,9 @@ class FactCheckCollector:
         if not soup:
             return quotes
 
-        items = soup.find_all('item')[:self.max_articles]
+        items = soup.find_all('item')
+        if len(items) > self.max_articles:
+            items = items[:self.max_articles]
         logger.info(f"Processing {len(items)} articles from RSS")
 
         for item in items:

@@ -1,0 +1,59 @@
+name: Build iOS App
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    name: Build iOS
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Setup CocoaPods
+        run: sudo gem install cocoapods
+
+      - name: Install Capacitor iOS
+        run: |
+          npm install @capacitor/ios
+          npx cap sync ios
+
+      - name: Pod install
+        run: cd ios/App && pod install
+
+      - name: Build iOS
+        run: |
+          cd ios/App
+          xcodebuild -workspace App.xcworkspace \
+            -scheme App \
+            -configuration Release \
+            -sdk iphoneos \
+            -archivePath build/App.xcarchive \
+            archive
+
+      - name: Export IPA
+        run: |
+          cd ios/App
+          xcodebuild -exportArchive \
+            -archivePath build/App.xcarchive \
+            -exportOptionsPlist exportOptions.plist \
+            -exportPath build/
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: rotus-ios-app
+          path: ios/App/build/*.ipa

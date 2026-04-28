@@ -1,57 +1,57 @@
 # Dependencies
 node_modules/
 venv/
-.venv/
-env/
+__pycache__/
+
+# Database - exclude all SQLite files (will be recreated)
+database/rotus.db
+database/*.db-journal
+database/*.db-shm
+database/*.db-wal
+
+# Build outputs
+dist/
+out/
+webapp/Quotes/*.md
+android/app/build/
+android/build/
+ios/App/build/
+ios/App/Pods/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
 
 # Environment
 .env
 .env.local
 .env.*.local
 
-# Build outputs
-android/app/build/
-android/.gradle/
-android/local.properties
-ios/Pods/
-ios/Podfile.lock
-dist/
-build/
+# Graphify
+graphify-out/cache/
 
-# IDE
-.vscode/
-.idea/
+# Temporary
+*.tmp
 *.swp
-*.swo
 *~
-.DS_Store
+.cache/
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Android keystore (exclude from repo, keep local only)
+android/rotus-release-key.keystore
 
-# Database
-*.db-shm
-*.db-wal
+# Collected quotes JSON (can be regenerated)
+collected_quotes.json
+all_new_quotes.json
+android/app/src/main/assets/public/collected_quotes.json
 
-# Gradle
-.gradle/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-dist/
-
-# Misc
-.obsidian/vault/
-temp/
-tmp/
-*.bak
-*.backup
-
-# Nested git repos (submodules)
-graphify-py/.git
+# Test files generated
+test-bundle.html
+test-mobile.html

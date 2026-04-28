@@ -14,6 +14,8 @@ CREATE TABLE IF NOT EXISTS quotes (
     verification_status VARCHAR(20) DEFAULT 'pending', -- 'verified', 'pending', 'disputed'
     confidence_score DECIMAL(3,2), -- 0.00 to 1.00
     category VARCHAR(50), -- 'funny', 'outrageous', 'lie', 'ridiculous', 'unexpected'
+    latitude REAL,
+    longitude REAL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

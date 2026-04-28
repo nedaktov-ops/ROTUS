@@ -60,7 +60,10 @@ class SnopesCollector:
             logger.error(f"Failed to parse JSON-LD: {e}")
             return []
 
-        items = data.get('mainEntity', [])[:self.max_claims]
+        items = data.get('mainEntity', [])
+        if not items:
+            items = []
+        items = items[:self.max_claims]
         logger.info(f"Found {len(items)} items in Snopes JSON-LD")
 
         for item in items:
