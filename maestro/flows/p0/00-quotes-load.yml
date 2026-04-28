@@ -1,0 +1,9 @@
+# Loads initial quotes on home screen
+appId: com.rotus.app
+---
+- launchApp
+- waitForAnimation
+- assertVisible: "~quotes-container"
+- assertVisible: "~quote-card"
+- assertVisible: "~stats"
+- runFlow: ../p1/01a-first-load.yml

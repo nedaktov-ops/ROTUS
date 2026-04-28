@@ -445,11 +445,8 @@
          <div class="header-content">
              <h1>ROTUS <button id="random-quote-btn" style="margin-left: 1rem; background: none; border: 2px solid var(--primary); color: var(--primary); padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-size: 1rem;">🎲 Random</button></h1>
              <p class="subtitle">The Rotten Brain of POTUS</p>
-            <p class="tagline">Verified quotes • Full sources • No context lost</p>
-            <div style="margin-top: 0.5rem;">
-                <a href="/graph" target="_blank" rel="noopener" style="color: var(--primary); text-decoration: none; font-size: 0.9rem; font-weight: 500;">🕸️ Knowledge Graph</a>
-            </div>
-        </div>
+             <p class="tagline">Verified quotes • Full sources • No context lost</p>
+         </div>
      </header>
 
     <main>
@@ -478,8 +475,8 @@
                 <option value="Speech">Speech</option>
                 <option value="Interview">Interview</option>
                 <option value="Social Media">Social Media</option>
-                <option value="Truth Social">Truth Social</option>
-                <option value="X">X (Twitter)</option>
+                <option value="Rally">Rally</option>
+                <option value="Press">Press</option>
             </select>
             <select id="category-filter">
                 <option value="">All Categories</option>
@@ -599,7 +596,10 @@
                         );
                     }
                     if (platform) {
-                        quotes = quotes.filter(q => q.platform === platform);
+                        quotes = quotes.filter(q => {
+                            const qPlatform = q.platform || '';
+                            return qPlatform === platform;
+                        });
                     }
                     if (category) {
                         quotes = quotes.filter(q => q.category === category);
@@ -807,11 +807,25 @@
             }
         }
 
+        let cachedBundle = [];
         async function showRandomQuote() {
             try {
+                let quote;
+                if (isCapacitor || isMobile) {
+                    if (cachedBundle.length === 0) {
+                        const res = await fetch('quotes-bundle.json');
+                        cachedBundle = await res.json();
+                    }
+                    const verified = cachedBundle.filter(q => q.verification_status === 'verified');
+                    if (verified.length > 0) {
+                        quote = verified[Math.floor(Math.random() * verified.length)];
+                        populateModal(quote);
+                        return;
+                    }
+                }
                 const res = await fetch(`${API}/api/quotes/random`);
-                const q = await res.json();
-                populateModal(q);
+                quote = await res.json();
+                populateModal(quote);
             } catch (e) {
                 console.error('Random quote error:', e);
             }
@@ -945,21 +959,20 @@
                 const isFav = favs.includes(q.id);
                 const heartFill = isFav ? 'filled' : '';
                 const dateStr = q.date_spoken || 'Unknown';
-                return `
-                <div class="quote-card timeline-item" onclick="showQuote(${q.id})">
-                    <div class="timeline-date">${dateStr}</div>
-                    <svg class="favorite-heart ${heartFill}" data-id="${q.id}" onclick="event.stopPropagation(); toggleFavorite(${q.id})" viewBox="0 0 24 24">
-                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                    </svg>
-                    <div class="quote-text">"${escapeHtml(q.quote_text)}"</div>
-                    <div class="quote-meta">
-                        <span>${dateStr}</span>
-                        <span>${q.platform || 'Unknown'}</span>
-                        <span class="badge ${q.verification_status === 'verified' ? 'badge-verified' : 'badge-pending'}">${q.verification_status || 'pending'}</span>
-                        ${q.category ? `<span class="badge badge-category">${q.category}</span>` : ''}
-                    </div>
-                </div>
-            `).join('');
+                return '<div class="quote-card timeline-item" onclick="showQuote(' + q.id + ')">' +
+                    '<div class="timeline-date">' + dateStr + '</div>' +
+                    '<svg class="favorite-heart ' + heartFill + '" data-id="' + q.id + '" onclick="event.stopPropagation(); toggleFavorite(' + q.id + ')" viewBox="0 0 24 24">' +
+                        '<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>' +
+                    '</svg>' +
+                    '<div class="quote-text">"' + escapeHtml(q.quote_text) + '"</div>' +
+                    '<div class="quote-meta">' +
+                        '<span>' + dateStr + '</span>' +
+                        '<span>' + (q.platform || 'Unknown') + '</span>' +
+                        '<span class="badge ' + (q.verification_status === 'verified' ? 'badge-verified' : 'badge-pending') + '">' + (q.verification_status || 'pending') + '</span>' +
+                        (q.category ? '<span class="badge badge-category">' + q.category + '</span>' : '') +
+                    '</div>' +
+                '</div>';
+            }).join('');
 
             if (append) {
                 container.innerHTML += html;

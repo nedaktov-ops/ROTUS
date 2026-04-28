@@ -1,0 +1,10 @@
+# Random quote modal opens
+appId: com.rotus.app
+---
+- launchApp
+- tapOn: "~random-quote-btn"
+- waitForAnimation
+- assertVisible: "~quote-modal"
+- assertVisible: "~modal-quote"
+- tapOn: "~close-modal-btn"
+- assertNotVisible: "~quote-modal"

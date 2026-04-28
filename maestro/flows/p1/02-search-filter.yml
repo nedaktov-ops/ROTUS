@@ -1,0 +1,12 @@
+# Search and filter functionality
+appId: com.rotus.app
+---
+- launchApp
+- inputText: "~search-input" text: "wall"
+- pressKey: Enter
+- waitForAnimation
+- assertVisible: "~quote-card"
+- scroll
+- selectOption: "~platform-filter" option: "Speech"
+- waitForAnimation
+- assertVisible: "~quote-card"
