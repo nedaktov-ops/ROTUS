@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 class TwitterArchiveCollector:
     source_name = "Trump Twitter Archive"
-    CSV_URL = "https://www.thetrumptwitterarchive.com/static/trump_tweets.csv"
+    CSV_URL = "https://raw.githubusercontent.com/bpb27/trump-twitter-archive/master/data/realdonaldtrump.csv"
 
     def __init__(self, limit: int = 500):
         self.limit = limit

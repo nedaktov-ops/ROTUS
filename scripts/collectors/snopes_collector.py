@@ -63,6 +63,12 @@ class SnopesCollector:
         items = data.get('mainEntity', [])
         if not items:
             items = []
+        # Ensure items is a list (it can be a single dict)
+        if isinstance(items, dict):
+            items = [items]
+        if not isinstance(items, list):
+            logger.warning(f"Unexpected items type: {type(items)}")
+            items = []
         items = items[:self.max_claims]
         logger.info(f"Found {len(items)} items in Snopes JSON-LD")
 

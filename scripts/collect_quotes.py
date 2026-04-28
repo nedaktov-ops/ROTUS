@@ -17,12 +17,12 @@ def main():
     logging.basicConfig(level=logging.INFO)
     all_quotes = []
 
-    # Configure limits as needed
+    # Configure limits for 5x expansion (target 890+ total)
     collectors = [
-        FactCheckCollector(max_articles=100),      # FactCheck.org: up to 100 articles
-        PolitiFactCollector(max_statements=100),  # PolitiFact: up to 100 statements
-        TwitterArchiveCollector(limit=500),       # Trump Twitter Archive: recent 500 tweets
-        SnopesCollector(max_claims=50),           # Snopes: up to 50 claims
+        FactCheckCollector(max_articles=1000),     # FactCheck.org: up to 1000 articles (RSS limited, but safe)
+        PolitiFactCollector(max_statements=1000), # PolitiFact: up to 1000 statements (list page may paginate)
+        TwitterArchiveCollector(limit=5000),       # Trump Twitter Archive: up to 5000 tweets (large dataset)
+        SnopesCollector(max_claims=1000),          # Snopes: up to 1000 claims (pagination)
     ]
 
     for collector in collectors:
